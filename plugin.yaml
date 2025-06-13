@@ -15,19 +15,6 @@ kinds:
     matcher:
       natural:
         only: [tree]
-  knownTree:
-    matcher:
-      natural:
-        tree:
-          when:
-  unknownTree:
-    matcher:
-      natural:
-        tree:
-          when:
-            "$missing": [species]
-      species:
-        except:
 
 fields:
   species_i:
@@ -91,21 +78,18 @@ fields:
 
 modes:
   tree:
-    type: micro
+    type: entrances
     icon: tree.svg
     name: Tree
-    kinds: [knownTree, unknownTree]
+    kinds: [tree]
     markers:
-      cycleBarrier:
-        requiredKeys: [cycle_barrier, "cycle_barrier:installation"]
-      cycleStand:
-        requiredKeys: [bicycle_parking, capacity]
-        label: "{capacity}"
+      tree:
+        requiredKeys: [species]
+        icon: tree-ok.svg
+        iconPartial: tree-ko.svg
     primary:
+      preset: natural/tree
       icon: tree.svg
       tooltip: Tree
       adjustZoom: 0.7
-      preset: natural/tree
       kind: tree
-      fields:
-        - species_i
