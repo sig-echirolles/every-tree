@@ -4,6 +4,21 @@ A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
 
 ![Every Tree Logo](assets/every-tree-logo.png)
 
+## ⭐ Features
+
+### 👀 Quick survey of tree species
+
+- Trees with known species are green
+- Others are in brown
+
+![Main](assets/main.png)
+
+### 🍒 Commons tree species presets
+
+The plugin provides a set of common tree species presets to help you tag tree species.
+
+![Presets](assets/add-tree.png)
+
 ## 🛠️ How to create the plugin file
 
 ### Using bash
