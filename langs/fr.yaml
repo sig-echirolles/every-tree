@@ -1,0 +1,31 @@
+---
+name: "Every Tree"
+fields:
+  species_i:
+    labels:
+      - 🟣 Figuier
+      - 🍒 Cerisier
+      - 🍒 Cerisier à grappes
+      - 🍑 Plaqueminier
+      - 🍎 Grenadier
+      - 🫒 Olivier
+      - 🥝 Kiwi
+      - 🌳 Ginkgo
+      - 🌲 Désespoir des singes
+      - 🌸 Paulownia
+      - 💮 Robinier
+      - 🟤 Néflier
+      - 🍐 Cognassier
+      - 🍏 Pommier
+      - 🍐 Poirier
+      - 🫐 Prunier
+      - 🟠 Nèflier du Japon
+      - 🔴 Sorbier
+      - ⚫️ Sureau
+      - ⚫️ Mûrier noir
+      - 🔴 Mûrier rouge
+      - ⚪️ Mûrier blanc
+      - 🍇 Mûrier à papier
+      - 🌰 Châtaignier
+      - 🌰 Noisetier
+      - 🌰 Noyer

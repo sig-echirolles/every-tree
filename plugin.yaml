@@ -1,0 +1,111 @@
+---
+id: every-tree
+name: Every Tree
+version: 0.1
+description: |
+  This plugin is dedicated to mapping trees in OpenStreetMap.
+author: Binnette binnette@gmail.com
+icon: every-tree-logo.svg
+homepage: https://github.com/Binnette/every-tree
+source: https://github.com/Binnette/every-tree/raw/refs/heads/main/every-tree.edp
+experimental: true
+
+kinds:
+  tree:
+    matcher:
+      natural:
+        only: [tree]
+  knownTree:
+    matcher:
+      natural:
+        tree:
+          when:
+  unknownTree:
+    matcher:
+      natural:
+        tree:
+          when:
+            "$missing": [species]
+      species:
+        except:
+
+fields:
+  species_i:
+    type: inlineCombo
+    key: species
+    label: Species
+  options:
+    - Ficus carica
+    - Prunus avium
+    - Prunus cerasifera
+    - Diospyros kaki
+    - Punica granatum
+    - Olea europaea
+    - Actinidia deliciosa
+    - Ginkgo biloba
+    - Araucaria araucana
+    - Paulownia tomentosa
+    - Robinia pseudoacacia
+    - Mespilus germanica
+    - Cydonia oblonga
+    - Malus domestica
+    - Pyrus communis
+    - Prunus domestica
+    - Eriobotrya japonica
+    - Sorbus aucuparia
+    - Sambucus nigra
+    - Morus nigra
+    - Morus rubra
+    - Morus alba
+    - Rubus fruticosus
+    - Castanea sativa
+    - Corylus avellana
+    - Juglans regia
+  labels:
+    - 🟣 Fig
+    - 🍒 Cherry
+    - 🍒 Cherry plum
+    - 🍑 Kaki
+    - 🍎 Pomegranate
+    - 🫒 Olive
+    - 🥝 Kiwi
+    - 🌳 Ginkgo
+    - 🌲 Monkey puzzle
+    - 🌸 Paulownia
+    - 💮 Robinia
+    - 🟤 Medlar
+    - 🍐 Quince
+    - 🍏 Apple
+    - 🍐 Pear
+    - 🫐 Plum
+    - 🟠 Loquat
+    - 🔴 Rowanberry
+    - ⚫️ Elderberry
+    - ⚫️ Black mulberry
+    - 🔴 Red mulberry
+    - ⚪️ White mulberry
+    - 🍇 Blackberry
+    - 🌰 Chestnut
+    - 🌰 Hazelnut
+    - 🌰 Walnut
+
+modes:
+  tree:
+    type: micro
+    icon: tree.svg
+    name: Tree
+    kinds: [knownTree, unknownTree]
+    markers:
+      cycleBarrier:
+        requiredKeys: [cycle_barrier, "cycle_barrier:installation"]
+      cycleStand:
+        requiredKeys: [bicycle_parking, capacity]
+        label: "{capacity}"
+    primary:
+      icon: tree.svg
+      tooltip: Tree
+      adjustZoom: 0.7
+      preset: natural/tree
+      kind: tree
+      fields:
+        - species_i
