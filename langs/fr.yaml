@@ -1,31 +1,58 @@
 ---
 name: "Every Tree"
-fields:
-  species_i:
-    labels:
-      - 🟣 Figuier
-      - 🍒 Cerisier
-      - 🍒 Cerisier à grappes
-      - 🍑 Plaqueminier
-      - 🍎 Grenadier
-      - 🫒 Olivier
-      - 🥝 Kiwi
-      - 🌳 Ginkgo
-      - 🌲 Désespoir des singes
-      - 🌸 Paulownia
-      - 💮 Robinier
-      - 🟤 Néflier
-      - 🍐 Cognassier
-      - 🍏 Pommier
-      - 🍐 Poirier
-      - 🫐 Prunier
-      - 🟠 Nèflier du Japon
-      - 🔴 Sorbier
-      - ⚫️ Sureau
-      - ⚫️ Mûrier noir
-      - 🔴 Mûrier rouge
-      - ⚪️ Mûrier blanc
-      - 🍇 Mûrier à papier
-      - 🌰 Châtaignier
-      - 🌰 Noisetier
-      - 🌰 Noyer
+presets.fig.name: "🟣 Figuier"
+presets.cherry.name: "🍒 Cerisier"
+presets.cherry_plum.name: "🍒 Prunier-cerise"
+presets.kaki.name: "🍑 Plaqueminier"
+presets.pomegranate.name: "🍎 Grenadier"
+presets.olive.name: "🫒 Olivier"
+presets.kiwi.name: "🥝 Kiwi"
+presets.ginkgo.name: "🌳 Ginkgo"
+presets.monkey_puzzle.name: "🌲 Désespoir des singes"
+presets.paulownia.name: "🌸 Paulownia"
+presets.robinia.name: "💮 Robinier"
+presets.medlar.name: "🟤 Néflier"
+presets.quince.name: "🍐 Cognassier"
+presets.apple.name: "🍏 Pommier"
+presets.pear.name: "🍐 Poirier"
+presets.plum.name: "🫐 Prunier"
+presets.loquat.name: "🟠 Nèflier du Japon"
+presets.rowanberry.name: "🔴 Sorbier des oiseleurs"
+presets.elderberry.name: "⚫️ Sureau noir"
+presets.black_mulberry.name: "⚫️ Mûrier noir"
+presets.red_mulberry.name: "🔴 Mûrier rouge"
+presets.white_mulberry.name: "⚪️ Mûrier blanc"
+presets.blackberry.name: "🍇 Ronce à mûre""
+presets.chestnut.name: "🌰 Châtaignier"
+presets.hazelnut.name: "🌰 Noisetier"
+presets.walnut.name: "🌰 Noyer"
+fields.species_i.label: "Espèce"
+fields.species_i.labels:
+  - "🟣 Figuier"
+  - "🍒 Cerisier"
+  - "🍒 Prunier-cerise"
+  - "🍑 Plaqueminier"
+  - "🍎 Grenadier"
+  - "🫒 Olivier"
+  - "🥝 Kiwi"
+  - "🌳 Ginkgo"
+  - "🌲 Désespoir des singes"
+  - "🌸 Paulownia"
+  - "💮 Robinier"
+  - "🟤 Néflier"
+  - "🍐 Cognassier"
+  - "🍏 Pommier"
+  - "🍐 Poirier"
+  - "🫐 Prunier"
+  - "🟠 Nèflier du Japon"
+  - "🔴 Sorbier"
+  - "⚫️ Sureau"
+  - "⚫️ Mûrier noir"
+  - "🔴 Mûrier rouge"
+  - "⚪️ Mûrier blanc"
+  - "🍇 Ronce à mûre"
+  - "🌰 Châtaignier"
+  - "🌰 Noisetier"
+  - "🌰 Noyer"
+modes.tree.name: "Arbre"
+modes.tree.primary.tooltip: "Arbre"
