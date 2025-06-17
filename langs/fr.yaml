@@ -31,6 +31,11 @@ fields.access_i.labels:
   - "Public"
   - "Privé"
   - "Permissif"
+fields.age_i.label: "Âge"
+fields.age_i.labels:
+  - "Jeune"
+  - "Semi-mature"
+  - "Mature"
 fields.species_i.label: "Espèce"
 fields.species_i.labels:
   - "🟣 Figuier"

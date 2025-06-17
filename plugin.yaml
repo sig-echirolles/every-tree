@@ -349,6 +349,18 @@ fields:
       - "Public"
       - "Private"
       - "Permissive"
+  age_i:
+    type: combo
+    key: age
+    label: Age
+    options:
+      - "young"
+      - "semi-mature"
+      - "mature"
+    labels:
+      - "Young"
+      - "Semi-mature"
+      - "Mature"
   species_i:
     type: combo
     customValues: true
@@ -432,6 +444,6 @@ modes:
       fields:
         - species_i
         - access_i
-        - age
+        - age_i
         - leaf_type
         - description
