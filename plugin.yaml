@@ -7,7 +7,7 @@ description: |
 author: Binnette binnette@gmail.com
 icon: every-tree-logo.svg
 homepage: https://github.com/Binnette/every-tree
-source: https://github.com/Binnette/every-tree/raw/refs/heads/main/every-tree.edp
+source: https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree.edp
 experimental: true
 
 presets:
