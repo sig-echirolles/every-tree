@@ -337,6 +337,18 @@ kinds:
         only: [tree]
 
 fields:
+  access_i:
+    type: combo
+    key: access
+    label: Access
+    options:
+      - "yes"
+      - "private"
+      - "permissive"
+    labels:
+      - "Public"
+      - "Private"
+      - "Permissive"
   species_i:
     type: combo
     customValues: true
@@ -419,4 +431,7 @@ modes:
       kind: tree
       fields:
         - species_i
-        - access
+        - access_i
+        - age
+        - leaf_type
+        - description

@@ -26,6 +26,11 @@ presets.blackberry.name: "🍇 Ronce à mûre"
 presets.chestnut.name: "🌰 Châtaignier"
 presets.hazelnut.name: "🌰 Noisetier"
 presets.walnut.name: "🌰 Noyer"
+fields.access_i.label: "Accès"
+fields.access_i.labels:
+  - "Public"
+  - "Privé"
+  - "Permissif"
 fields.species_i.label: "Espèce"
 fields.species_i.labels:
   - "🟣 Figuier"
