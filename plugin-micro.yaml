@@ -1,13 +1,13 @@
 ---
-id: every-tree
-name: Every Tree
+id: every-tree-micro
+name: Every Tree (Micro)
 version: 0.1
 description: |
   This plugin is dedicated to mapping trees in OpenStreetMap.
 author: Binnette binnette@gmail.com
 icon: every-tree-logo.svg
 homepage: https://github.com/Binnette/every-tree
-source: https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree.edp
+source: https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree-micro.edp
 experimental: true
 
 presets:
@@ -22,6 +22,13 @@ presets:
       natural: tree
       genus: "Ficus"
       species: "Ficus carica"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   cherry:
     name: "🍒 Cherry"
@@ -34,6 +41,13 @@ presets:
       natural: tree
       genus: "Prunus"
       species: "Prunus avium"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   cherry_plum:
     name: "🍒 Cherry plum"
@@ -46,6 +60,13 @@ presets:
       natural: tree
       genus: "Prunus"
       species: "Prunus cerasifera"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   kaki:
     name: "🍑 Kaki"
@@ -58,6 +79,13 @@ presets:
       natural: tree
       genus: "Diospyros"
       species: "Diospyros kaki"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   pomegranate:
     name: "🍎 Pomegranate"
@@ -70,6 +98,13 @@ presets:
       natural: tree
       genus: "Punica"
       species: "Punica granatum"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   olive:
     name: "🫒 Olive"
@@ -82,6 +117,13 @@ presets:
       natural: tree
       genus: "Olea"
       species: "Olea europaea"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   kiwi:
     name: "🥝 Kiwi"
@@ -94,6 +136,13 @@ presets:
       natural: tree
       genus: "Actinidia"
       species: "Actinidia deliciosa"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   ginkgo:
     name: "🌳 Ginkgo"
@@ -106,6 +155,13 @@ presets:
       natural: tree
       genus: "Ginkgo"
       species: "Ginkgo biloba"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   monkey_puzzle:
     name: "🌲 Monkey puzzle"
@@ -118,6 +174,13 @@ presets:
       natural: tree
       genus: "Araucaria"
       species: "Araucaria araucana"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   paulownia:
     name: "🌸 Paulownia"
@@ -130,6 +193,13 @@ presets:
       natural: tree
       genus: "Paulownia"
       species: "Paulownia tomentosa"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   robinia:
     name: "💮 Robinia"
@@ -142,6 +212,13 @@ presets:
       natural: tree
       genus: "Robinia"
       species: "Robinia pseudoacacia"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   medlar:
     name: "🟤 Medlar"
@@ -154,6 +231,13 @@ presets:
       natural: tree
       genus: "Mespilus"
       species: "Mespilus germanica"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   quince:
     name: "🍐 Quince"
@@ -166,6 +250,13 @@ presets:
       natural: tree
       genus: "Cydonia"
       species: "Cydonia oblonga"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   apple:
     name: "🍏 Apple"
@@ -178,6 +269,13 @@ presets:
       natural: tree
       genus: "Malus"
       species: "Malus domestica"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   pear:
     name: "🍐 Pear"
@@ -190,6 +288,13 @@ presets:
       natural: tree
       genus: "Pyrus"
       species: "Pyrus communis"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   plum:
     name: "🫐 Plum"
@@ -202,6 +307,13 @@ presets:
       natural: tree
       genus: "Prunus"
       species: "Prunus domestica"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   loquat:
     name: "🟠 Loquat"
@@ -214,6 +326,13 @@ presets:
       natural: tree
       genus: "Eriobotrya"
       species: "Eriobotrya japonica"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   rowanberry:
     name: "🔴 Rowanberry"
@@ -226,6 +345,13 @@ presets:
       natural: tree
       genus: "Sorbus"
       species: "Sorbus aucuparia"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   elderberry:
     name: "⚫️ Elderberry"
@@ -238,6 +364,13 @@ presets:
       natural: tree
       genus: "Sambucus"
       species: "Sambucus nigra"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   black_mulberry:
     name: "⚫️ Black mulberry"
@@ -250,6 +383,13 @@ presets:
       natural: tree
       genus: "Morus"
       species: "Morus nigra"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   red_mulberry:
     name: "🔴 Red mulberry"
@@ -262,6 +402,13 @@ presets:
       natural: tree
       genus: "Morus"
       species: "Morus rubra"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   white_mulberry:
     name: "⚪️ White mulberry"
@@ -274,6 +421,13 @@ presets:
       natural: tree
       genus: "Morus"
       species: "Morus alba"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   blackberry:
     name: "🍇 Blackberry"
@@ -286,6 +440,13 @@ presets:
       natural: tree
       genus: "Rubus"
       species: "Rubus fruticosus"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   chestnut:
     name: "🌰 Chestnut"
@@ -298,6 +459,13 @@ presets:
       natural: tree
       genus: "Castanea"
       species: "Castanea sativa"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   hazelnut:
     name: "🌰 Hazelnut"
@@ -310,6 +478,13 @@ presets:
       natural: tree
       genus: "Corylus"
       species: "Corylus avellana"
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
   walnut:
     name: "🌰 Walnut"
@@ -322,12 +497,13 @@ presets:
       natural: tree
       genus: "Juglans"
       species: "Juglans regia"
-
-kinds:
-  tree:
-    matcher:
-      natural:
-        only: [tree]
+    fields:
+      - species_i
+      - access_i
+      - age_i
+      - leaf_type
+      - description
+      - "@natural/tree"
 
 fields:
   access_i:
@@ -415,28 +591,84 @@ fields:
       - "🌰 Walnut"
 
 modes:
-  tree:
-    type: entrances
-    icon: tree.svg
-    name: Tree
-    kinds: [fig, tree]
+  micro:
+    defaultPresets:
+      - fig
+      - cherry
+      - cherry_plum
+      - kaki
+      - pomegranate
+      - olive
+      - kiwi
+      - ginkgo
+      - monkey_puzzle
+      - paulownia
+      - robinia
+      - medlar
+      - quince
+      - apple
+      - pear
+      - plum
+      - loquat
+      - rowanberry
+      - elderberry
+      - black_mulberry
+      - red_mulberry
+      - white_mulberry
+      - blackberry
+      - chestnut
+      - hazelnut
+      - walnut
     markers:
       fig:
-        icon: fig.svg
-      tree:
-        requiredKeys: [species]
-        icon: tree-ok.svg
-        iconPartial: tree-ko.svg
-    primary:
-      onMainKey: false
-      preset: natural/tree
-      icon: tree.svg
-      tooltip: Tree
-      adjustZoom: 0.7
-      kind: tree
-      fields:
-        - species_i
-        - access_i
-        - age_i
-        - leaf_type
-        - description
+        icon: fig.svg # U+1F7E3 # 🟣
+      cherry:
+        icon: cherry.svg # U+1F352 # 🍒
+      cherry_plum:
+        icon: u+1f525 # 🍒
+      kaki:
+        icon: "u+1f351" # 🍑
+      pomegranate:
+        icon: U+1F34E # 🍎
+      olive:
+        icon: U+1FAD2 # 🫒
+      kiwi:
+        icon: U+1F95D # 🥝
+      ginkgo:
+        icon: U+1F333 # 🌳
+      monkey_puzzle:
+        icon: U+1F332 # 🌲
+      paulownia:
+        icon: U+1F338 # 🌸
+      robinia:
+        icon: U+1F4AE # 💮
+      medlar:
+        icon: U+1F7E4 # 🟤
+      quince:
+        icon: U+1F350 # 🍐
+      apple:
+        icon: U+1F34F # 🍏
+      pear:
+        icon: U+1F350 # 🍐
+      plum:
+        icon: U+1FAD0 # 🫐
+      loquat:
+        icon: U+1F7E0 # 🟠
+      rowanberry:
+        icon: U+1F534 # 🔴
+      elderberry:
+        icon: U+2BAB U+FE0F # ⚫️
+      black_mulberry:
+        icon: U+2BAB U+FE0F # ⚫️
+      red_mulberry:
+        icon: U+1F534 # 🔴
+      white_mulberry:
+        icon: U+2BAB U+FE0F # ⚪️
+      blackberry:
+        icon: U+1F347 # 🍇
+      chestnut:
+        icon: U+1F330 # 🌰
+      hazelnut:
+        icon: U+1F330 # 🌰
+      walnut:
+        icon: U+1F330 # 🌰
