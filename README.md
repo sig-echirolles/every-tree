@@ -1,8 +1,8 @@
-# 🌳 Every Tree 🌲
+# 🌳 Échirolles Tree 🌲
 
-A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
+A plugin for `Every Door` to contribute 🌳 **trees** from Échirolles city in OpenStreetMap.
 
-![Every Tree Logo](assets/every-tree-echirolles-logo.png)
+![Échirolles Tree Logo](assets/echirolles-tree-logo.png)
 
 ## ⭐ Features
 
@@ -13,9 +13,9 @@ A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
 
 ![Main](assets/main.png)
 
-### Tree species presets adapted of the Echirolles' context
+### Tree species presets adapted of the Échirolles' context
 
-The plugin provides a set of already known identified species and species that are planned to be planted in order to help you tag tree species in Echirolles and nearby.
+The plugin provides a set of already known identified species and species that are planned to be planted in order to help you tag tree species in Échirolles and nearby.
 
 ![Presets](assets/add-tree.png)
 
@@ -25,16 +25,17 @@ The plugin provides a set of already known identified species and species that a
 
 ```bash
 # Remove old files
-rm -f every-tree-echirolles.edp
+rm -f echirolles-tree.edp
 # Create the classic plugin
-zip -r every-tree-echirolles.edp icons/ langs/ LICENSE plugin.yaml
+zip -r echirolles-tree.edp icons/ langs/ LICENSE plugin.yaml
 rm -rf tmp-edp
 ```
 
 ### Using PowerShell
 
 ```powershell
-Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -DestinationPath every-tree-echirolles.edp
+Remove-Item .\echirolles-tree.edp
+Compress-Archive -Path icons, langs, LICENSE, plugin.yaml, README.md -DestinationPath echirolles-tree.edp
 ```
 
 ## 📥 How to install the plugin
@@ -43,6 +44,6 @@ Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -Destin
 
 ![QR Code](assets/qr-code.png)
 
-Or [⬇️ download the plugin here](https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/every-tree-echirolles.edp).
+Or [⬇️ download the plugin here](https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp).
 
 [🔍 More information on installation](https://every-door.app/plugins/install/).
