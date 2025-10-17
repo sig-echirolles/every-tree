@@ -1,13 +1,13 @@
 ---
-id: every-tree-micro
-name: Every Tree (Micro)
+id: echirolles-tree-micro
+name: Échirolles Tree (Micro)
 version: 0.1
 description: |
-  This plugin is dedicated to mapping trees in OpenStreetMap.
-author: Binnette binnette@gmail.com
-icon: every-tree-logo.svg
-homepage: https://github.com/Binnette/every-tree
-source: https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree-micro.edp
+  This plugin is dedicated to contributing tree data from the city of Échirolles to OpenStreetMap.
+author: SIG-Échirolles eric.vinouze@echirolles.fr
+icon: echirolles-tree-logo.svg
+homepage: https://github.com/sig-echirolles/every-tree
+source: https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree-micro.edp
 experimental: true
 
 presets:
