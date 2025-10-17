@@ -2,7 +2,7 @@
 
 A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
 
-![Every Tree Logo](assets/every-tree-logo.png)
+![Every Tree Logo](assets/every-tree-echirolles-logo.png)
 
 ## ⭐ Features
 
@@ -13,9 +13,9 @@ A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
 
 ![Main](assets/main.png)
 
-### 🍒 Commons tree species presets
+### Tree species presets adapted of the Echirolles' context
 
-The plugin provides a set of common tree species presets to help you tag tree species.
+The plugin provides a set of already known identified species and species that are planned to be planted in order to help you tag tree species in Echirolles and nearby.
 
 ![Presets](assets/add-tree.png)
 
@@ -25,23 +25,16 @@ The plugin provides a set of common tree species presets to help you tag tree sp
 
 ```bash
 # Remove old files
-rm -f every-tree.edp every-tree-micro.edp
-
+rm -f every-tree-echirolles.edp
 # Create the classic plugin
-zip -r every-tree.edp icons/ langs/ LICENSE plugin.yaml
-
-# Create the micro version of the plugin
-mkdir -p tmp-edp
-cp -r icons langs LICENSE tmp-edp/
-cp plugin-micro.yaml tmp-edp/plugin.yaml
-(cd tmp-edp && zip -r ../every-tree-micro.edp .)
+zip -r every-tree-echirolles.edp icons/ langs/ LICENSE plugin.yaml
 rm -rf tmp-edp
 ```
 
 ### Using PowerShell
 
 ```powershell
-Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -DestinationPath every-tree.edp
+Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -DestinationPath every-tree-echirolles.edp
 ```
 
 ## 📥 How to install the plugin
@@ -50,21 +43,6 @@ Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -Destin
 
 ![QR Code](assets/qr-code.png)
 
-Or [⬇️ download the plugin here](https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree.edp).
+Or [⬇️ download the plugin here](https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/every-tree-echirolles.edp).
 
 [🔍 More information on installation](https://every-door.app/plugins/install/).
-
-### Install the micro version
-
-![QR Code micro](assets/qr-code-micro.png)
-
-## 📝 Todo list
-- [ ] Ask all my questions to Ilya.
-- [ ] Draw custom icons for each tree species.
-- [ ] Add a second button for `natural=shrub` with plants :
-    - "🍇 Blackberry" species="Rubus fruticosus"
-    - "🔴 Raspberry" species="Rubus idaeus"
-    - Juniperus communis
-    - "Sambucus nigra"
-    - "blueberry
-    - "🌱 Strawberry" species="Fragaria vesca"
