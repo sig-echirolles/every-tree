@@ -3,56 +3,109 @@ id: echirolles-tree
 name: Échirolles Tree
 version: 0.1
 description: |
-  This plugin is dedicated to contributing tree data from the city of Échirolles to OpenStreetMap.
-author: SIG-Échirolles eric.vinouze@echirolles.fr
-icon: echirolles-tree-logo.svg
+  A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette
+author: SIG Échirolles (eric.vinouze@echirolles.fr), Binnette (binnette@gmail.com) 
+icon: every-tree-echirolles-logo.svg
 homepage: https://github.com/sig-echirolles/every-tree
 source: https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp
 experimental: true
 
+
 presets:
-  fig:
-    name: "🟣 Fig"
-    terms: [fig, ficus, carica]
-    area: false
+  platanus_×acerifolia:
+    name: "Platane Commun"
+    terms: ['Platanus ×acerifolia', 'platanus', '×acerifolia']
+    area: False
     tags:
       natural: tree
-      species: "Ficus carica"
+      species: "Platanus ×acerifolia"
     addTags:
       natural: tree
-      genus: "Ficus"
-      species: "Ficus carica"
+      genus: "Platanus"
+      species: "Platanus ×acerifolia"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  cherry:
-    name: "🍒 Cherry"
-    terms: [cherry, prunus, avium]
-    area: false
+  pinus_nigra:
+    name: "Pin De Salzmann"
+    terms: ['Pinus nigra', 'pinus', 'nigra']
+    area: False
     tags:
       natural: tree
-      species: "Prunus avium"
+      species: "Pinus nigra"
     addTags:
       natural: tree
-      genus: "Prunus"
-      species: "Prunus avium"
+      genus: "Pinus"
+      species: "Pinus nigra"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  cherry_plum:
-    name: "🍒 Cherry plum"
-    terms: [cherry plum, prunus, cerasifera]
-    area: false
+  acer_campestre:
+    name: "Érable Champêtre"
+    terms: ['Acer campestre', 'acer', 'campestre']
+    area: False
+    tags:
+      natural: tree
+      species: "Acer campestre"
+    addTags:
+      natural: tree
+      genus: "Acer"
+      species: "Acer campestre"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  magnolia_grandiflora:
+    name: "Laurier Tulipier"
+    terms: ['Magnolia grandiflora', 'magnolia', 'grandiflora']
+    area: False
+    tags:
+      natural: tree
+      species: "Magnolia grandiflora"
+    addTags:
+      natural: tree
+      genus: "Magnolia"
+      species: "Magnolia grandiflora"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  acer_platanoides:
+    name: "Acer Platanoides"
+    terms: ['Acer platanoides', 'acer', 'platanoides']
+    area: False
+    tags:
+      natural: tree
+      species: "Acer platanoides"
+    addTags:
+      natural: tree
+      genus: "Acer"
+      species: "Acer platanoides"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  prunus_cerasifera:
+    name: "Myrobolan"
+    terms: ['Prunus cerasifera', 'prunus', 'cerasifera']
+    area: False
     tags:
       natural: tree
       species: "Prunus cerasifera"
@@ -62,149 +115,303 @@ presets:
       species: "Prunus cerasifera"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  kaki:
-    name: "🍑 Kaki"
-    terms: [kaki, diospyros]
-    area: false
+  pyrus_calleryana:
+    name: "Pyrus Calleryana"
+    terms: ['Pyrus calleryana', 'pyrus', 'calleryana']
+    area: False
     tags:
       natural: tree
-      species: "Diospyros kaki"
+      species: "Pyrus calleryana"
     addTags:
       natural: tree
-      genus: "Diospyros"
-      species: "Diospyros kaki"
+      genus: "Pyrus"
+      species: "Pyrus calleryana"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  pomegranate:
-    name: "🍎 Pomegranate"
-    terms: [pomegranate, punica, granatum]
-    area: false
+  cupressus_sempervirens:
+    name: "Cyprès Commun"
+    terms: ['Cupressus sempervirens', 'cupressus', 'sempervirens']
+    area: False
     tags:
       natural: tree
-      species: "Punica granatum"
+      species: "Cupressus sempervirens"
     addTags:
       natural: tree
-      genus: "Punica"
-      species: "Punica granatum"
+      genus: "Cupressus"
+      species: "Cupressus sempervirens"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  olive:
-    name: "🫒 Olive"
-    terms: [olive, olea, europaea]
-    area: false
+  cedrus_libani:
+    name: "Cedre Du Liban"
+    terms: ['Cedrus libani', 'cedrus', 'libani']
+    area: False
     tags:
       natural: tree
-      species: "Olea europaea"
+      species: "Cedrus libani"
     addTags:
       natural: tree
-      genus: "Olea"
-      species: "Olea europaea"
+      genus: "Cedrus"
+      species: "Cedrus libani"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  kiwi:
-    name: "🥝 Kiwi"
-    terms: [kiwi, actinidia, deliciosa]
-    area: false
+  prunus_serrulata:
+    name: "Cerisier À Fleurs Japonais"
+    terms: ['Prunus serrulata', 'prunus', 'serrulata']
+    area: False
     tags:
       natural: tree
-      species: "Actinidia deliciosa"
+      species: "Prunus serrulata"
     addTags:
       natural: tree
-      genus: "Actinidia"
-      species: "Actinidia deliciosa"
+      genus: "Prunus"
+      species: "Prunus serrulata"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  ginkgo:
-    name: "🌳 Ginkgo"
-    terms: [ginkgo, ginkgo, biloba]
-    area: false
+  cedrus_atlantica:
+    name: "Cèdre Bleu De L'Atlas"
+    terms: ['Cedrus atlantica', 'cedrus', 'atlantica']
+    area: False
     tags:
       natural: tree
-      species: "Ginkgo biloba"
+      species: "Cedrus atlantica"
     addTags:
       natural: tree
-      genus: "Ginkgo"
-      species: "Ginkgo biloba"
+      genus: "Cedrus"
+      species: "Cedrus atlantica"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  monkey_puzzle:
-    name: "🌲 Monkey puzzle"
-    terms: [monkey puzzle, araucaria, araucana]
-    area: false
+  pinus_sylvestris:
+    name: "Pin D'Écosse"
+    terms: ['Pinus sylvestris', 'pinus', 'sylvestris']
+    area: False
     tags:
       natural: tree
-      species: "Araucaria araucana"
+      species: "Pinus sylvestris"
     addTags:
       natural: tree
-      genus: "Araucaria"
-      species: "Araucaria araucana"
+      genus: "Pinus"
+      species: "Pinus sylvestris"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  paulownia:
-    name: "🌸 Paulownia"
-    terms: [paulownia, paulownia, tomentosa]
-    area: false
+  quercus_ilex:
+    name: "Chêne Vert"
+    terms: ['Quercus ilex', 'quercus', 'ilex']
+    area: False
     tags:
       natural: tree
-      species: "Paulownia tomentosa"
+      species: "Quercus ilex"
     addTags:
       natural: tree
-      genus: "Paulownia"
-      species: "Paulownia tomentosa"
+      genus: "Quercus"
+      species: "Quercus ilex"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  robinia:
-    name: "💮 Robinia"
-    terms: [robinia, robinia, pseudoacacia]
-    area: false
+  tilia_cordata:
+    name: "Tilia Sylvestris"
+    terms: ['Tilia cordata', 'tilia', 'cordata']
+    area: False
+    tags:
+      natural: tree
+      species: "Tilia cordata"
+    addTags:
+      natural: tree
+      genus: "Tilia"
+      species: "Tilia cordata"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  populus_nigra:
+    name: "Peuplier Noir"
+    terms: ['Populus nigra', 'populus', 'nigra']
+    area: False
+    tags:
+      natural: tree
+      species: "Populus nigra"
+    addTags:
+      natural: tree
+      genus: "Populus"
+      species: "Populus nigra"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  tilia_tomentosa:
+    name: "Tilleul Argente"
+    terms: ['Tilia tomentosa', 'tilia', 'tomentosa']
+    area: False
+    tags:
+      natural: tree
+      species: "Tilia tomentosa"
+    addTags:
+      natural: tree
+      genus: "Tilia"
+      species: "Tilia tomentosa"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  sophora_japonica:
+    name: "Sophora Du Japon"
+    terms: ['Sophora japonica', 'sophora', 'japonica']
+    area: False
+    tags:
+      natural: tree
+      species: "Sophora japonica"
+    addTags:
+      natural: tree
+      genus: "Sophora"
+      species: "Sophora japonica"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  lagerstroemia_indica:
+    name: "Lilas D'Été"
+    terms: ['Lagerstroemia indica', 'lagerstroemia', 'indica']
+    area: False
+    tags:
+      natural: tree
+      species: "Lagerstroemia indica"
+    addTags:
+      natural: tree
+      genus: "Lagerstroemia"
+      species: "Lagerstroemia indica"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  arbutus_unedo:
+    name: "Arbouse"
+    terms: ['Arbutus unedo', 'arbutus', 'unedo']
+    area: False
+    tags:
+      natural: tree
+      species: "Arbutus unedo"
+    addTags:
+      natural: tree
+      genus: "Arbutus"
+      species: "Arbutus unedo"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  prunus_mahaleb:
+    name: "Bois De Sainte Lucie"
+    terms: ['Prunus mahaleb', 'prunus', 'mahaleb']
+    area: False
+    tags:
+      natural: tree
+      species: "Prunus mahaleb"
+    addTags:
+      natural: tree
+      genus: "Prunus"
+      species: "Prunus mahaleb"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  carpinus_betulus:
+    name: "Carpinus Betulus"
+    terms: ['Carpinus betulus', 'carpinus', 'betulus']
+    area: False
+    tags:
+      natural: tree
+      species: "Carpinus betulus"
+    addTags:
+      natural: tree
+      genus: "Carpinus"
+      species: "Carpinus betulus"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  cercis_siliquastrum:
+    name: "Arbre De Judee"
+    terms: ['Cercis siliquastrum', 'cercis', 'siliquastrum']
+    area: False
+    tags:
+      natural: tree
+      species: "Cercis siliquastrum"
+    addTags:
+      natural: tree
+      genus: "Cercis"
+      species: "Cercis siliquastrum"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  robinia_pseudoacacia:
+    name: "Faux Acacia"
+    terms: ['Robinia pseudoacacia', 'robinia', 'pseudoacacia']
+    area: False
     tags:
       natural: tree
       species: "Robinia pseudoacacia"
@@ -214,295 +421,136 @@ presets:
       species: "Robinia pseudoacacia"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  medlar:
-    name: "🟤 Medlar"
-    terms: [medlar, mespilus, germanica]
-    area: false
+  acer_monspessulanum:
+    name: "Acer Monspessulanum"
+    terms: ['Acer monspessulanum', 'acer', 'monspessulanum']
+    area: False
     tags:
       natural: tree
-      species: "Mespilus germanica"
+      species: "Acer monspessulanum"
     addTags:
       natural: tree
-      genus: "Mespilus"
-      species: "Mespilus germanica"
+      genus: "Acer"
+      species: "Acer monspessulanum"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  quince:
-    name: "🍐 Quince"
-    terms: [quince, cydonia, oblonga]
-    area: false
+  gleditsia_triacanthos:
+    name: "Févier"
+    terms: ['Gleditsia triacanthos', 'gleditsia', 'triacanthos']
+    area: False
     tags:
       natural: tree
-      species: "Cydonia oblonga"
+      species: "Gleditsia triacanthos"
     addTags:
       natural: tree
-      genus: "Cydonia"
-      species: "Cydonia oblonga"
+      genus: "Gleditsia"
+      species: "Gleditsia triacanthos"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  apple:
-    name: "🍏 Apple"
-    terms: [apple, malus, domestica]
-    area: false
+  cupressus_arizonica:
+    name: "Cyprès Bleu"
+    terms: ['Cupressus arizonica', 'cupressus', 'arizonica']
+    area: False
     tags:
       natural: tree
-      species: "Malus domestica"
+      species: "Cupressus arizonica"
     addTags:
       natural: tree
-      genus: "Malus"
-      species: "Malus domestica"
+      genus: "Cupressus"
+      species: "Cupressus arizonica"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
-
-  pear:
-    name: "🍐 Pear"
-    terms: [pear, pyrus, communis]
-    area: false
+  acer_saccharinum:
+    name: "Acer Saccharinum"
+    terms: ['Acer saccharinum', 'acer', 'saccharinum']
+    area: False
     tags:
       natural: tree
-      species: "Pyrus communis"
+      species: "Acer saccharinum"
+    addTags:
+      natural: tree
+      genus: "Acer"
+      species: "Acer saccharinum"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  juniperus_scopulorum:
+    name: "Genevrier De Virginie"
+    terms: ['Juniperus scopulorum', 'juniperus', 'scopulorum']
+    area: False
+    tags:
+      natural: tree
+      species: "Juniperus scopulorum"
+    addTags:
+      natural: tree
+      genus: "Juniperus"
+      species: "Juniperus scopulorum"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  chionanthus_retusus:
+    name: "Arbre À Franges De Chine"
+    terms: ['Chionanthus retusus', 'chionanthus', 'retusus']
+    area: False
+    tags:
+      natural: tree
+      species: "Chionanthus retusus"
+    addTags:
+      natural: tree
+      genus: "Chionanthus"
+      species: "Chionanthus retusus"
+    fields:
+      - species_i
+      - height
+      - circumference
+      - leaf_type
+      - leaf_cycle
+      - "@natural/tree"
+  pyrus_pyraster:
+    name: "Poirier Sauvage"
+    terms: ['Pyrus pyraster', 'pyrus', 'pyraster']
+    area: False
+    tags:
+      natural: tree
+      species: "Pyrus pyraster"
     addTags:
       natural: tree
       genus: "Pyrus"
-      species: "Pyrus communis"
+      species: "Pyrus pyraster"
     fields:
       - species_i
-      - access_i
-      - age_i
+      - height
+      - circumference
       - leaf_type
-      - description
-      - "@natural/tree"
-
-  plum:
-    name: "🫐 Plum"
-    terms: [plum, prunus, domestica]
-    area: false
-    tags:
-      natural: tree
-      species: "Prunus domestica"
-    addTags:
-      natural: tree
-      genus: "Prunus"
-      species: "Prunus domestica"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  loquat:
-    name: "🟠 Loquat"
-    terms: [loquat, eriobotrya, japonica]
-    area: false
-    tags:
-      natural: tree
-      species: "Eriobotrya japonica"
-    addTags:
-      natural: tree
-      genus: "Eriobotrya"
-      species: "Eriobotrya japonica"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  rowanberry:
-    name: "🔴 Rowanberry"
-    terms: [rowanberry, sorbus, aucuparia]
-    area: false
-    tags:
-      natural: tree
-      species: "Sorbus aucuparia"
-    addTags:
-      natural: tree
-      genus: "Sorbus"
-      species: "Sorbus aucuparia"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  elderberry:
-    name: "⚫️ Elderberry"
-    terms: [elderberry, sambucus, nigra]
-    area: false
-    tags:
-      natural: tree
-      species: "Sambucus nigra"
-    addTags:
-      natural: tree
-      genus: "Sambucus"
-      species: "Sambucus nigra"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  black_mulberry:
-    name: "⚫️ Black mulberry"
-    terms: [black mulberry, morus, nigra]
-    area: false
-    tags:
-      natural: tree
-      species: "Morus nigra"
-    addTags:
-      natural: tree
-      genus: "Morus"
-      species: "Morus nigra"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  red_mulberry:
-    name: "🔴 Red mulberry"
-    terms: [red mulberry, morus, rubra]
-    area: false
-    tags:
-      natural: tree
-      species: "Morus rubra"
-    addTags:
-      natural: tree
-      genus: "Morus"
-      species: "Morus rubra"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  white_mulberry:
-    name: "⚪️ White mulberry"
-    terms: [white mulberry, morus, alba]
-    area: false
-    tags:
-      natural: tree
-      species: "Morus alba"
-    addTags:
-      natural: tree
-      genus: "Morus"
-      species: "Morus alba"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  blackberry:
-    name: "🍇 Blackberry"
-    terms: [blackberry, rubus, fruticosus]
-    area: false
-    tags:
-      natural: tree
-      species: "Rubus fruticosus"
-    addTags:
-      natural: tree
-      genus: "Rubus"
-      species: "Rubus fruticosus"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  chestnut:
-    name: "🌰 Chestnut"
-    terms: [chestnut, castanea, sativa]
-    area: false
-    tags:
-      natural: tree
-      species: "Castanea sativa"
-    addTags:
-      natural: tree
-      genus: "Castanea"
-      species: "Castanea sativa"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  hazelnut:
-    name: "🌰 Hazelnut"
-    terms: [hazelnut, corylus, avellana]
-    area: false
-    tags:
-      natural: tree
-      species: "Corylus avellana"
-    addTags:
-      natural: tree
-      genus: "Corylus"
-      species: "Corylus avellana"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
-      - "@natural/tree"
-
-  walnut:
-    name: "🌰 Walnut"
-    terms: [walnut, juglans, regia]
-    area: false
-    tags:
-      natural: tree
-      species: "Juglans regia"
-    addTags:
-      natural: tree
-      genus: "Juglans"
-      species: "Juglans regia"
-    fields:
-      - species_i
-      - access_i
-      - age_i
-      - leaf_type
-      - description
+      - leaf_cycle
       - "@natural/tree"
 
 kinds:
@@ -542,59 +590,67 @@ fields:
     key: species
     label: Species
     options:
-      - "Ficus carica"
-      - "Prunus avium"
+      - "Platanus ×acerifolia"
+      - "Pinus nigra"
+      - "Acer campestre"
+      - "Magnolia grandiflora"
+      - "Acer platanoides"
       - "Prunus cerasifera"
-      - "Diospyros kaki"
-      - "Punica granatum"
-      - "Olea europaea"
-      - "Actinidia deliciosa"
-      - "Ginkgo biloba"
-      - "Araucaria araucana"
-      - "Paulownia tomentosa"
+      - "Pyrus calleryana"
+      - "Cupressus sempervirens"
+      - "Cedrus libani"
+      - "Prunus serrulata"
+      - "Cedrus atlantica"
+      - "Pinus sylvestris"
+      - "Quercus ilex"
+      - "Tilia cordata"
+      - "Populus nigra"
+      - "Tilia tomentosa"
+      - "Sophora japonica"
+      - "Lagerstroemia indica"
+      - "Arbutus unedo"
+      - "Prunus mahaleb"
+      - "Carpinus betulus"
+      - "Cercis siliquastrum"
       - "Robinia pseudoacacia"
-      - "Mespilus germanica"
-      - "Cydonia oblonga"
-      - "Malus domestica"
-      - "Pyrus communis"
-      - "Prunus domestica"
-      - "Eriobotrya japonica"
-      - "Sorbus aucuparia"
-      - "Sambucus nigra"
-      - "Morus nigra"
-      - "Morus rubra"
-      - "Morus alba"
-      - "Rubus fruticosus"
-      - "Castanea sativa"
-      - "Corylus avellana"
-      - "Juglans regia"
+      - "Acer monspessulanum"
+      - "Gleditsia triacanthos"
+      - "Cupressus arizonica"
+      - "Acer saccharinum"
+      - "Juniperus scopulorum"
+      - "Chionanthus retusus"
+      - "Pyrus pyraster"
     labels:
-      - "🟣 Fig"
-      - "🍒 Cherry"
-      - "🍒 Cherry plum"
-      - "🍑 Kaki"
-      - "🍎 Pomegranate"
-      - "🫒 Olive"
-      - "🥝 Kiwi"
-      - "🌳 Ginkgo"
-      - "🌲 Monkey puzzle"
-      - "🌸 Paulownia"
-      - "💮 Robinia"
-      - "🟤 Medlar"
-      - "🍐 Quince"
-      - "🍏 Apple"
-      - "🍐 Pear"
-      - "🫐 Plum"
-      - "🟠 Loquat"
-      - "🔴 Rowanberry"
-      - "⚫️ Elderberry"
-      - "⚫️ Black mulberry"
-      - "🔴 Red mulberry"
-      - "⚪️ White mulberry"
-      - "🍇 Blackberry"
-      - "🌰 Chestnut"
-      - "🌰 Hazelnut"
-      - "🌰 Walnut"
+      - "Platanus ×acerifolia"
+      - "Pinus nigra"
+      - "Acer campestre"
+      - "Magnolia grandiflora"
+      - "Acer platanoides"
+      - "Prunus cerasifera"
+      - "Pyrus calleryana"
+      - "Cupressus sempervirens"
+      - "Cedrus libani"
+      - "Prunus serrulata"
+      - "Cedrus atlantica"
+      - "Pinus sylvestris"
+      - "Quercus ilex"
+      - "Tilia cordata"
+      - "Populus nigra"
+      - "Tilia tomentosa"
+      - "Sophora japonica"
+      - "Lagerstroemia indica"
+      - "Arbutus unedo"
+      - "Prunus mahaleb"
+      - "Carpinus betulus"
+      - "Cercis siliquastrum"
+      - "Robinia pseudoacacia"
+      - "Acer monspessulanum"
+      - "Gleditsia triacanthos"
+      - "Cupressus arizonica"
+      - "Acer saccharinum"
+      - "Juniperus scopulorum"
+      - "Chionanthus retusus"
+      - "Pyrus pyraster"
 
 modes:
   tree:
@@ -618,7 +674,10 @@ modes:
       kind: tree
       fields:
         - species_i
-        - access_i
-        - age_i
+        - height
+        - circumference
         - leaf_type
-        - description
+        - leaf_cycle
+        # - access_i
+        # - age_i
+        # - description
