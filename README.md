@@ -47,3 +47,7 @@ Compress-Archive -Path icons, langs, LICENSE, plugin.yaml, README.md -Destinatio
 Or [⬇️ download the plugin here](https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp).
 
 [🔍 More information on installation](https://every-door.app/plugins/install/).
+
+## 🌱 About
+
+`echirolles-tree` is a fork of the [every-tree](https://github.com/Binnette/every-tree) plugin, created by [Binnette](https://github.com/Binnette/). Thanks to him!
