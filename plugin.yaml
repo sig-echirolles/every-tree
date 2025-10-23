@@ -5,7 +5,7 @@ version: 0.1
 description: |
   A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette
 author: SIG Échirolles (eric.vinouze@echirolles.fr), Binnette (binnette@gmail.com) 
-icon: every-tree-echirolles-logo.svg
+icon: echirolles-tree-logo.svg
 homepage: https://github.com/sig-echirolles/every-tree
 source: https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp
 experimental: true
@@ -13,7 +13,7 @@ experimental: true
 
 presets:
   platanus_×acerifolia:
-    name: "Platane Commun"
+    name: "Platane commun"
     terms: ['Platanus ×acerifolia', 'platanus', '×acerifolia']
     area: False
     tags:
@@ -31,7 +31,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   pinus_nigra:
-    name: "Pin De Salzmann"
+    name: "Pin noir"
     terms: ['Pinus nigra', 'pinus', 'nigra']
     area: False
     tags:
@@ -49,7 +49,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   acer_campestre:
-    name: "Érable Champêtre"
+    name: "Érable champêtre"
     terms: ['Acer campestre', 'acer', 'campestre']
     area: False
     tags:
@@ -67,7 +67,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   magnolia_grandiflora:
-    name: "Laurier Tulipier"
+    name: "Magnolia à grandes fleurs"
     terms: ['Magnolia grandiflora', 'magnolia', 'grandiflora']
     area: False
     tags:
@@ -85,7 +85,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   acer_platanoides:
-    name: "Acer Platanoides"
+    name: "Érable plane"
     terms: ['Acer platanoides', 'acer', 'platanoides']
     area: False
     tags:
@@ -103,7 +103,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   prunus_cerasifera:
-    name: "Myrobolan"
+    name: "Prunier-cerise (myrobolan)"
     terms: ['Prunus cerasifera', 'prunus', 'cerasifera']
     area: False
     tags:
@@ -121,7 +121,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   pyrus_calleryana:
-    name: "Pyrus Calleryana"
+    name: "Poirier de Chine"
     terms: ['Pyrus calleryana', 'pyrus', 'calleryana']
     area: False
     tags:
@@ -139,7 +139,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   cupressus_sempervirens:
-    name: "Cyprès Commun"
+    name: "Cyprès commun"
     terms: ['Cupressus sempervirens', 'cupressus', 'sempervirens']
     area: False
     tags:
@@ -157,7 +157,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   cedrus_libani:
-    name: "Cedre Du Liban"
+    name: "Cèdre du Liban"
     terms: ['Cedrus libani', 'cedrus', 'libani']
     area: False
     tags:
@@ -175,7 +175,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   prunus_serrulata:
-    name: "Cerisier À Fleurs Japonais"
+    name: "Cerisier du Japon"
     terms: ['Prunus serrulata', 'prunus', 'serrulata']
     area: False
     tags:
@@ -193,7 +193,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   cedrus_atlantica:
-    name: "Cèdre Bleu De L'Atlas"
+    name: "Cèdre de l'Atlas"
     terms: ['Cedrus atlantica', 'cedrus', 'atlantica']
     area: False
     tags:
@@ -211,7 +211,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   pinus_sylvestris:
-    name: "Pin D'Écosse"
+    name: "Pin sylvestre"
     terms: ['Pinus sylvestris', 'pinus', 'sylvestris']
     area: False
     tags:
@@ -229,7 +229,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   quercus_ilex:
-    name: "Chêne Vert"
+    name: "Chêne vert"
     terms: ['Quercus ilex', 'quercus', 'ilex']
     area: False
     tags:
@@ -247,7 +247,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   tilia_cordata:
-    name: "Tilia Sylvestris"
+    name: "Tilleul à petites feuilles"
     terms: ['Tilia cordata', 'tilia', 'cordata']
     area: False
     tags:
@@ -265,7 +265,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   populus_nigra:
-    name: "Peuplier Noir"
+    name: "Peuplier noir"
     terms: ['Populus nigra', 'populus', 'nigra']
     area: False
     tags:
@@ -283,7 +283,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   tilia_tomentosa:
-    name: "Tilleul Argente"
+    name: "Tilleul argenté"
     terms: ['Tilia tomentosa', 'tilia', 'tomentosa']
     area: False
     tags:
@@ -301,7 +301,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   sophora_japonica:
-    name: "Sophora Du Japon"
+    name: "Sophora du Japon"
     terms: ['Sophora japonica', 'sophora', 'japonica']
     area: False
     tags:
@@ -319,7 +319,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   lagerstroemia_indica:
-    name: "Lilas D'Été"
+    name: "Lilas d'Inde"
     terms: ['Lagerstroemia indica', 'lagerstroemia', 'indica']
     area: False
     tags:
@@ -337,7 +337,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   arbutus_unedo:
-    name: "Arbouse"
+    name: "Arbousier"
     terms: ['Arbutus unedo', 'arbutus', 'unedo']
     area: False
     tags:
@@ -355,7 +355,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   prunus_mahaleb:
-    name: "Bois De Sainte Lucie"
+    name: "Bois de Sainte-Lucie"
     terms: ['Prunus mahaleb', 'prunus', 'mahaleb']
     area: False
     tags:
@@ -373,7 +373,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   carpinus_betulus:
-    name: "Carpinus Betulus"
+    name: "Charme commun"
     terms: ['Carpinus betulus', 'carpinus', 'betulus']
     area: False
     tags:
@@ -391,7 +391,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   cercis_siliquastrum:
-    name: "Arbre De Judee"
+    name: "Arbre de Judée"
     terms: ['Cercis siliquastrum', 'cercis', 'siliquastrum']
     area: False
     tags:
@@ -409,7 +409,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   robinia_pseudoacacia:
-    name: "Faux Acacia"
+    name: "Robinier faux-acacia"
     terms: ['Robinia pseudoacacia', 'robinia', 'pseudoacacia']
     area: False
     tags:
@@ -427,7 +427,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   acer_monspessulanum:
-    name: "Acer Monspessulanum"
+    name: "Érable de Montpellier"
     terms: ['Acer monspessulanum', 'acer', 'monspessulanum']
     area: False
     tags:
@@ -445,7 +445,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   gleditsia_triacanthos:
-    name: "Févier"
+    name: "Févier d'Amérique"
     terms: ['Gleditsia triacanthos', 'gleditsia', 'triacanthos']
     area: False
     tags:
@@ -463,7 +463,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   cupressus_arizonica:
-    name: "Cyprès Bleu"
+    name: "Cyprès de l'Arizona"
     terms: ['Cupressus arizonica', 'cupressus', 'arizonica']
     area: False
     tags:
@@ -481,7 +481,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   acer_saccharinum:
-    name: "Acer Saccharinum"
+    name: "Érable argenté"
     terms: ['Acer saccharinum', 'acer', 'saccharinum']
     area: False
     tags:
@@ -499,7 +499,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   juniperus_scopulorum:
-    name: "Genevrier De Virginie"
+    name: "Genévrier des Rocheuses"
     terms: ['Juniperus scopulorum', 'juniperus', 'scopulorum']
     area: False
     tags:
@@ -517,7 +517,7 @@ presets:
       - leaf_cycle
       - "@natural/tree"
   chionanthus_retusus:
-    name: "Arbre À Franges De Chine"
+    name: "Arbre à franges de Chine"
     terms: ['Chionanthus retusus', 'chionanthus', 'retusus']
     area: False
     tags:
@@ -621,36 +621,36 @@ fields:
       - "Chionanthus retusus"
       - "Pyrus pyraster"
     labels:
-      - "Platanus ×acerifolia"
-      - "Pinus nigra"
-      - "Acer campestre"
-      - "Magnolia grandiflora"
-      - "Acer platanoides"
-      - "Prunus cerasifera"
-      - "Pyrus calleryana"
-      - "Cupressus sempervirens"
-      - "Cedrus libani"
-      - "Prunus serrulata"
-      - "Cedrus atlantica"
-      - "Pinus sylvestris"
-      - "Quercus ilex"
-      - "Tilia cordata"
-      - "Populus nigra"
-      - "Tilia tomentosa"
-      - "Sophora japonica"
-      - "Lagerstroemia indica"
-      - "Arbutus unedo"
-      - "Prunus mahaleb"
-      - "Carpinus betulus"
-      - "Cercis siliquastrum"
-      - "Robinia pseudoacacia"
-      - "Acer monspessulanum"
-      - "Gleditsia triacanthos"
-      - "Cupressus arizonica"
-      - "Acer saccharinum"
-      - "Juniperus scopulorum"
-      - "Chionanthus retusus"
-      - "Pyrus pyraster"
+      - "Platane commun"
+      - "Pin noir"
+      - "Érable champêtre"
+      - "Magnolia à grandes fleurs"
+      - "Érable plane"
+      - "Prunier myrobolan"
+      - "Poirier de Chine"
+      - "Cyprès commun"
+      - "Cèdre du Liban"
+      - "Cerisier du Japon"
+      - "Cèdre de l'Atlas"
+      - "Pin sylvestre"
+      - "Chêne vert"
+      - "Tilleul à petites feuilles"
+      - "Peuplier noir"
+      - "Tilleul argenté"
+      - "Sophora du Japon"
+      - "Lilas d'Inde"
+      - "Arbousier"
+      - "Bois de Sainte-Lucie"
+      - "Charme commun"
+      - "Arbre de Judée"
+      - "Robinier faux-acacia"
+      - "Érable de Montpellier"
+      - "Févier d'Amérique"
+      - "Cyprès de l'Arizona"
+      - "Érable argenté"
+      - "Genévrier des Rocheuses"
+      - "Arbre à franges de Chine"
+      - "Poirier sauvage"
 
 modes:
   tree:
