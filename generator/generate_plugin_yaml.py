@@ -43,9 +43,7 @@ for _, row in presets_csv.iterrows():
     presets_yaml["presets"][row["id"]] = transform_row(row)
 
 # Écrire le résultat dans un fichier YAML avec un format personnalisé pour 'terms' et 'fields'
-with open(
-    "results/presets.yaml", "w"
-) as file:  # Le mode 'w' écrase le fichier s'il existe
+with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il existe
     file.write(f"---\n")
     file.write(f"id: echirolles-tree\n")
     file.write(f"name: Échirolles Tree\n")
