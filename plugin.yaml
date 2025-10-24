@@ -6057,6 +6057,12 @@ presets:
 # Fin des presets
 #-----------------------------------------
 
+kinds:
+  tree:
+      matcher:
+        natural:
+            only: [tree]
+
 fields:
   access_i:
     type: combo

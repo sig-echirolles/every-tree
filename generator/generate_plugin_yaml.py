@@ -90,6 +90,12 @@ with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il
     file.write(f"# Fin des presets\n")
     file.write(f"#-----------------------------------------\n")
 
+    file.write("\nkinds:\n")
+    file.write("  tree:\n")
+    file.write("      matcher:\n")
+    file.write("        natural:\n")
+    file.write("            only: [tree]\n")
+
     # Ajouter la section finale pour les champs et les modes
     file.write("\nfields:\n")
     file.write("  access_i:\n")
