@@ -32,7 +32,7 @@ def transform_row(row):
             "health_i",
             # "age_i",
             # "access_i",
-            # "description",
+            "description",
             "@natural/tree",
         ],
     }
@@ -177,5 +177,6 @@ with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il
     file.write("        - height\n")
     file.write("        - circumference\n")
     file.write("        - health_i\n")
+    file.write("        - description\n")
 
 print("Le fichier YAML a été généré avec succès.")
