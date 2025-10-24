@@ -29,6 +29,7 @@ def transform_row(row):
             "leaf_cycle",
             "height",
             "circumference",
+            "health_i",
             # "age_i",
             # "access_i",
             # "description",
@@ -47,10 +48,9 @@ with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il
     file.write(f"---\n")
     file.write(f"id: echirolles-tree\n")
     file.write(f"name: Échirolles Tree\n")
-    file.write(f"version: 0.1\n")
-    file.write(f"description: |\n")
+    file.write(f"version: 0.2\n")
     file.write(
-        f"A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette\n"
+        f"description: A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette\n"
     )
     file.write(
         f"author: SIG Échirolles (eric.vinouze@echirolles.fr), Binnette (binnette@gmail.com)\n"
@@ -105,18 +105,31 @@ with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il
     file.write('      - "Private"\n')
     file.write('      - "Permissive"\n')
 
-    file.write("  age_i:\n")
+    file.write("  health_i:\n")
     file.write("    type: combo\n")
-    file.write("    key: age\n")
-    file.write("    label: Age\n")
+    file.write("    key: health:phyto_status\n")
+    file.write("    label: Phyto status\n")
     file.write("    options:\n")
-    file.write('      - "young"\n')
-    file.write('      - "semi-mature"\n')
-    file.write('      - "mature"\n')
+    file.write('      - "good"\n')
+    file.write('      - "average"\n')
+    file.write('      - "bad"\n')
     file.write("    labels:\n")
-    file.write('      - "Young"\n')
-    file.write('      - "Semi-mature"\n')
-    file.write('      - "Mature"\n')
+    file.write('      - "Good"\n')
+    file.write('      - "Average"\n')
+    file.write('      - "Bad"\n')
+
+    # file.write("  age_i:\n")
+    # file.write("    type: combo\n")
+    # file.write("    key: age\n")
+    # file.write("    label: Age\n")
+    # file.write("    options:\n")
+    # file.write('      - "young"\n')
+    # file.write('      - "semi-mature"\n')
+    # file.write('      - "mature"\n')
+    # file.write("    labels:\n")
+    # file.write('      - "Young"\n')
+    # file.write('      - "Semi-mature"\n')
+    # file.write('      - "Mature"\n')
 
     file.write("  species_i:\n")
     file.write("    type: combo\n")
@@ -157,5 +170,6 @@ with open("../plugin.yaml", "w") as file:  # Le mode 'w' écrase le fichier s'il
     file.write("        - leaf_cycle\n")
     file.write("        - height\n")
     file.write("        - circumference\n")
+    file.write("        - health_i\n")
 
 print("Le fichier YAML a été généré avec succès.")

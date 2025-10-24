@@ -307,6 +307,11 @@ fields.access_i.labels:
   - "Public"
   - "Privé"
   - "Permissif"
+fields.health_i.label: "État phyto"
+fields.health_i.labels:
+  - "Bon"
+  - "Moyen"
+  - "Mauvais"
 fields.age_i.label: "Âge"
 fields.age_i.labels:
   - "Jeune"

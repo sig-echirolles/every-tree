@@ -1,15 +1,13 @@
 ---
 id: echirolles-tree
 name: Échirolles Tree
-version: 0.1
-description: |
-  A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette
-author: SIG Échirolles (eric.vinouze@echirolles.fr), Binnette (binnette@gmail.com) 
+version: 0.2
+description: A customised plugin for Every Door to contribute trees in OpenStreetMap, coming from Every tree plugin by @Binnette
+author: SIG Échirolles (eric.vinouze@echirolles.fr), Binnette (binnette@gmail.com)
 icon: echirolles-tree-logo.svg
 homepage: https://github.com/sig-echirolles/every-tree
 source: https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp
 experimental: true
-
 
 #-----------------------------------------
 # Début des presets
@@ -33,6 +31,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies bornmuelleriana:
     name: "Abies bornmuelleriana"
@@ -52,6 +51,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies concolor:
     name: "Abies concolor"
@@ -71,6 +71,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies koreana:
     name: "Abies koreana"
@@ -90,6 +91,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies nordmanniana:
     name: "Abies nordmanniana"
@@ -109,6 +111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies numidica:
     name: "Abies numidica"
@@ -128,6 +131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Abies pinsapo:
     name: "Abies pinsapo"
@@ -147,6 +151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer buergerianum:
     name: "Acer buergerianum"
@@ -166,6 +171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer campestre:
     name: "Acer campestre"
@@ -185,6 +191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer capillipes:
     name: "Acer capillipes"
@@ -204,6 +211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer cappadocicum:
     name: "Acer cappadocicum"
@@ -223,6 +231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer griseum:
     name: "Acer griseum"
@@ -242,6 +251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer heldreichii:
     name: "Acer heldreichii"
@@ -261,6 +271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer hyrcanum:
     name: "Acer hyrcanum"
@@ -280,6 +291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer monspessulanum:
     name: "Acer monspessulanum"
@@ -299,6 +311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer obtusifolium:
     name: "Acer obtusifolium"
@@ -318,6 +331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer opalus:
     name: "Acer opalus"
@@ -337,6 +351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer platanoides:
     name: "Acer platanoides"
@@ -356,6 +371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer pseudoplatanus:
     name: "Acer pseudoplatanus"
@@ -375,6 +391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer rubrum:
     name: "Acer rubrum"
@@ -394,6 +411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer saccharinum:
     name: "Acer saccharinum"
@@ -413,6 +431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer tataricum:
     name: "Acer tataricum"
@@ -432,6 +451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer peronai:
     name: "Acer peronai"
@@ -451,6 +471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Acer zoeschense:
     name: "Acer zoeschense"
@@ -470,6 +491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Aesculus flava:
     name: "Aesculus flava"
@@ -489,6 +511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Aesculus hippocastanum:
     name: "Aesculus hippocastanum"
@@ -508,6 +531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Aesculus indica:
     name: "Aesculus indica"
@@ -527,6 +551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Aesculus × carnea:
     name: "Aesculus × carnea"
@@ -546,6 +571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Agonis flexuosa:
     name: "Agonis flexuosa"
@@ -565,6 +591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Albizia julibrissin:
     name: "Albizia julibrissin"
@@ -584,6 +611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Alniaria alnifolia:
     name: "Alniaria alnifolia"
@@ -603,6 +631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Alnus cordata:
     name: "Alnus cordata"
@@ -622,6 +651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Alnus glutinosa:
     name: "Alnus glutinosa"
@@ -641,6 +671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Alnus incana:
     name: "Alnus incana"
@@ -660,6 +691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Alnus ×spaethii:
     name: "Alnus ×spaethii"
@@ -679,6 +711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Amelanchier alnifolia:
     name: "Amelanchier alnifolia"
@@ -698,6 +731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Amelanchier canadensis:
     name: "Amelanchier canadensis"
@@ -717,6 +751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Amelanchier laevis:
     name: "Amelanchier laevis"
@@ -736,6 +771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Amelanchier ovalis:
     name: "Amelanchier ovalis"
@@ -755,6 +791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Arbutus andrachne:
     name: "Arbutus andrachne"
@@ -774,6 +811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Arbutus unedo:
     name: "Arbutus unedo"
@@ -793,6 +831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ilex integrifolia:
     name: "Ilex integrifolia"
@@ -812,6 +851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Robinia variegata:
     name: "Robinia variegata"
@@ -831,6 +871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Betula pendula:
     name: "Betula pendula"
@@ -850,6 +891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Betula pubescens:
     name: "Betula pubescens"
@@ -869,6 +911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Betula utilis:
     name: "Betula utilis"
@@ -888,6 +931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Brachychiton acerifolius:
     name: "Brachychiton acerifolius"
@@ -907,6 +951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Broussonetia papyrifera:
     name: "Broussonetia papyrifera"
@@ -926,6 +971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Buddleja globosa:
     name: "Buddleja globosa"
@@ -945,6 +991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Calocedrus decurrens:
     name: "Calocedrus decurrens"
@@ -964,6 +1011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carpinus betulus:
     name: "Carpinus betulus"
@@ -983,6 +1031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carpinus orientalis:
     name: "Carpinus orientalis"
@@ -1002,6 +1051,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carpinus turczaninowii:
     name: "Carpinus turczaninowii"
@@ -1021,6 +1071,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carya cordiformis:
     name: "Carya cordiformis"
@@ -1040,6 +1091,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carya illinoinensis:
     name: "Carya illinoinensis"
@@ -1059,6 +1111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carya ovata:
     name: "Carya ovata"
@@ -1078,6 +1131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Carya tomentosa:
     name: "Carya tomentosa"
@@ -1097,6 +1151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Castanea sativa:
     name: "Castanea sativa"
@@ -1116,6 +1171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Casuarina cunninghamiana:
     name: "Casuarina cunninghamiana"
@@ -1135,6 +1191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Catalpa bignonioides:
     name: "Catalpa bignonioides"
@@ -1154,6 +1211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Catalpa bungei:
     name: "Catalpa bungei"
@@ -1173,6 +1231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Catalpa speciosa:
     name: "Catalpa speciosa"
@@ -1192,6 +1251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cedrela sinensis:
     name: "Cedrela sinensis"
@@ -1211,6 +1271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cedrus atlantica:
     name: "Cedrus atlantica"
@@ -1230,6 +1291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cedrus deodara:
     name: "Cedrus deodara"
@@ -1249,6 +1311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cedrus libani:
     name: "Cedrus libani"
@@ -1268,6 +1331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis australis:
     name: "Celtis australis"
@@ -1287,6 +1351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis bungeana:
     name: "Celtis bungeana"
@@ -1306,6 +1371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis caucasica:
     name: "Celtis caucasica"
@@ -1325,6 +1391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis julianae:
     name: "Celtis julianae"
@@ -1344,6 +1411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis occidentalis:
     name: "Celtis occidentalis"
@@ -1363,6 +1431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Celtis sinensis:
     name: "Celtis sinensis"
@@ -1382,6 +1451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cercidiphyllum japonicum:
     name: "Cercidiphyllum japonicum"
@@ -1401,6 +1471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cercis canadensis:
     name: "Cercis canadensis"
@@ -1420,6 +1491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Chionanthus retusus:
     name: "Chionanthus retusus"
@@ -1439,6 +1511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Chionanthus virginicus:
     name: "Chionanthus virginicus"
@@ -1458,6 +1531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Chitalpa tashkentensis:
     name: "Chitalpa tashkentensis"
@@ -1477,6 +1551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cinnamomum camphora:
     name: "Cinnamomum camphora"
@@ -1496,6 +1571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Citrus trifoliata:
     name: "Citrus trifoliata"
@@ -1515,6 +1591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cladrastis kentukea:
     name: "Cladrastis kentukea"
@@ -1534,6 +1611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cornus controversa:
     name: "Cornus controversa"
@@ -1553,6 +1631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cornus mas:
     name: "Cornus mas"
@@ -1572,6 +1651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Corylus avellana:
     name: "Corylus avellana"
@@ -1591,6 +1671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Corylus colurna:
     name: "Corylus colurna"
@@ -1610,6 +1691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Crataegus azarolus:
     name: "Crataegus azarolus"
@@ -1629,6 +1711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Crataegus laevigata:
     name: "Crataegus laevigata"
@@ -1648,6 +1731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Crataegus monogyna:
     name: "Crataegus monogyna"
@@ -1667,6 +1751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Crataegus ×lavalleei:
     name: "Crataegus ×lavalleei"
@@ -1686,6 +1771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cupressus cashmeriana:
     name: "Cupressus cashmeriana"
@@ -1705,6 +1791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cupressus sempervirens:
     name: "Cupressus sempervirens"
@@ -1724,6 +1811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Cydonia oblonga:
     name: "Cydonia oblonga"
@@ -1743,6 +1831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Davidia involucrata:
     name: "Davidia involucrata"
@@ -1762,6 +1851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Diospyros kaki:
     name: "Diospyros kaki"
@@ -1781,6 +1871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Diospyros lotus:
     name: "Diospyros lotus"
@@ -1800,6 +1891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Diospyros virginiana:
     name: "Diospyros virginiana"
@@ -1819,6 +1911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Euodia acuminata:
     name: "Euodia acuminata"
@@ -1838,6 +1931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ehretia dicksonii:
     name: "Ehretia dicksonii"
@@ -1857,6 +1951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Elaeagnus angustifolia:
     name: "Elaeagnus angustifolia"
@@ -1876,6 +1971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Eriobotrya deflexa:
     name: "Eriobotrya deflexa"
@@ -1895,6 +1991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Eucalyptus niphophila:
     name: "Eucalyptus niphophila"
@@ -1914,6 +2011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Eucommia ulmoides:
     name: "Eucommia ulmoides"
@@ -1933,6 +2031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fagus crenata:
     name: "Fagus crenata"
@@ -1952,6 +2051,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fagus grandifolia:
     name: "Fagus grandifolia"
@@ -1971,6 +2071,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fagus japonica:
     name: "Fagus japonica"
@@ -1990,6 +2091,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fagus orientalis:
     name: "Fagus orientalis"
@@ -2009,6 +2111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fagus sylvatica:
     name: "Fagus sylvatica"
@@ -2028,6 +2131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ficus carica:
     name: "Ficus carica"
@@ -2047,6 +2151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Firmiana simplex:
     name: "Firmiana simplex"
@@ -2066,6 +2171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fontanesia phillyraeoides:
     name: "Fontanesia phillyraeoides"
@@ -2085,6 +2191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus americana:
     name: "Fraxinus americana"
@@ -2104,6 +2211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus angustifolia:
     name: "Fraxinus angustifolia"
@@ -2123,6 +2231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus excelsior:
     name: "Fraxinus excelsior"
@@ -2142,6 +2251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus mandshurica:
     name: "Fraxinus mandshurica"
@@ -2161,6 +2271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus ornus:
     name: "Fraxinus ornus"
@@ -2180,6 +2291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus sieboldiana:
     name: "Fraxinus sieboldiana"
@@ -2199,6 +2311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Fraxinus velutina:
     name: "Fraxinus velutina"
@@ -2218,6 +2331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ginkgo biloba:
     name: "Ginkgo biloba"
@@ -2237,6 +2351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Gleditsia triacanthos:
     name: "Gleditsia triacanthos"
@@ -2256,6 +2371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Grevillea robusta:
     name: "Grevillea robusta"
@@ -2275,6 +2391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Gymnocladus dioica:
     name: "Gymnocladus dioica"
@@ -2294,6 +2411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Halesia carolina:
     name: "Halesia carolina"
@@ -2313,6 +2431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Halesia monticola:
     name: "Halesia monticola"
@@ -2332,6 +2451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Heptacodium miconioides:
     name: "Heptacodium miconioides"
@@ -2351,6 +2471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Hibiscus syriacus:
     name: "Hibiscus syriacus"
@@ -2370,6 +2491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Hippophae rhamnoides:
     name: "Hippophae rhamnoides"
@@ -2389,6 +2511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Idesia polycarpa:
     name: "Idesia polycarpa"
@@ -2408,6 +2531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ilex aquifolium:
     name: "Ilex aquifolium"
@@ -2427,6 +2551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ilex castaneifolium:
     name: "Ilex castaneifolium"
@@ -2446,6 +2571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Juglans regia:
     name: "Juglans regia"
@@ -2465,6 +2591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Koelreuteria bipinnata:
     name: "Koelreuteria bipinnata"
@@ -2484,6 +2611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Koelreuteria paniculata:
     name: "Koelreuteria paniculata"
@@ -2503,6 +2631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Lagerstroemia indica:
     name: "Lagerstroemia indica"
@@ -2522,6 +2651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Larix decidua:
     name: "Larix decidua"
@@ -2541,6 +2671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Laurus nobilis:
     name: "Laurus nobilis"
@@ -2560,6 +2691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ligustrum ibota:
     name: "Ligustrum ibota"
@@ -2579,6 +2711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ligustrum vulgare:
     name: "Ligustrum vulgare"
@@ -2598,6 +2731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Liquidambar formosana:
     name: "Liquidambar formosana"
@@ -2617,6 +2751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Liquidambar orientalis:
     name: "Liquidambar orientalis"
@@ -2636,6 +2771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Liquidambar styraciflua:
     name: "Liquidambar styraciflua"
@@ -2655,6 +2791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Liriodendron chinense:
     name: "Liriodendron chinense"
@@ -2674,6 +2811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Liriodendron tulipifera:
     name: "Liriodendron tulipifera"
@@ -2693,6 +2831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Maackia chinensis:
     name: "Maackia chinensis"
@@ -2712,6 +2851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Maclura pomifera:
     name: "Maclura pomifera"
@@ -2731,6 +2871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Magnolia acuminata:
     name: "Magnolia acuminata"
@@ -2750,6 +2891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Magnolia grandiflora:
     name: "Magnolia grandiflora"
@@ -2769,6 +2911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Magnolia kobus:
     name: "Magnolia kobus"
@@ -2788,6 +2931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Magnolia ×soulangeana:
     name: "Magnolia ×soulangeana"
@@ -2807,6 +2951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus domestica:
     name: "Malus domestica"
@@ -2826,6 +2971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus × floribunda:
     name: "Malus × floribunda"
@@ -2845,6 +2991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus spectabilis:
     name: "Malus spectabilis"
@@ -2864,6 +3011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus sylvestris:
     name: "Malus sylvestris"
@@ -2883,6 +3031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus trilobata:
     name: "Malus trilobata"
@@ -2902,6 +3051,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Malus tschonoskii:
     name: "Malus tschonoskii"
@@ -2921,6 +3071,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Melia azedarach:
     name: "Melia azedarach"
@@ -2940,6 +3091,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Mespilus germanica:
     name: "Mespilus germanica"
@@ -2959,6 +3111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Metasequoia glibtostroboides:
     name: "Metasequoia glibtostroboides"
@@ -2978,6 +3131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Metrosideros excelsa:
     name: "Metrosideros excelsa"
@@ -2997,6 +3151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Morus alba:
     name: "Morus alba"
@@ -3016,6 +3171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Morus australis:
     name: "Morus australis"
@@ -3035,6 +3191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Morus kagayamae:
     name: "Morus kagayamae"
@@ -3054,6 +3211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Morus nigra:
     name: "Morus nigra"
@@ -3073,6 +3231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Morus rubra:
     name: "Morus rubra"
@@ -3092,6 +3251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Nyssa sylvatica:
     name: "Nyssa sylvatica"
@@ -3111,6 +3271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Olea europaea:
     name: "Olea europaea"
@@ -3130,6 +3291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ostrya carpinifolia:
     name: "Ostrya carpinifolia"
@@ -3149,6 +3311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ostrya virginiana:
     name: "Ostrya virginiana"
@@ -3168,6 +3331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Parrotia persica:
     name: "Parrotia persica"
@@ -3187,6 +3351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Paulownia tomentosa:
     name: "Paulownia tomentosa"
@@ -3206,6 +3371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Phellodendron amurense:
     name: "Phellodendron amurense"
@@ -3225,6 +3391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Photinia serratifolia:
     name: "Photinia serratifolia"
@@ -3244,6 +3411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Picea abies:
     name: "Picea abies"
@@ -3263,6 +3431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Picea orientalis:
     name: "Picea orientalis"
@@ -3282,6 +3451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus brutia:
     name: "Pinus brutia"
@@ -3301,6 +3471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus bungeana:
     name: "Pinus bungeana"
@@ -3320,6 +3491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus griffithii:
     name: "Prunus griffithii"
@@ -3339,6 +3511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus halepensis:
     name: "Pinus halepensis"
@@ -3358,6 +3531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus nigra:
     name: "Pinus nigra"
@@ -3377,6 +3551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus parviflora:
     name: "Pinus parviflora"
@@ -3396,6 +3571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus pinaster:
     name: "Pinus pinaster"
@@ -3415,6 +3591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus pinea:
     name: "Pinus pinea"
@@ -3434,6 +3611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus ponderosa:
     name: "Pinus ponderosa"
@@ -3453,6 +3631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus strobus:
     name: "Pinus strobus"
@@ -3472,6 +3651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus sylvestris:
     name: "Pinus sylvestris"
@@ -3491,6 +3671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pinus uncinata:
     name: "Pinus uncinata"
@@ -3510,6 +3691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pistacia atlantica:
     name: "Pistacia atlantica"
@@ -3529,6 +3711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pistacia chinensis:
     name: "Pistacia chinensis"
@@ -3548,6 +3731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pistacia lentiscus:
     name: "Pistacia lentiscus"
@@ -3567,6 +3751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pistacia terebinthus:
     name: "Pistacia terebinthus"
@@ -3586,6 +3771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Platanus ×hispanica:
     name: "Platanus ×hispanica"
@@ -3605,6 +3791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Platanus orientalis:
     name: "Platanus orientalis"
@@ -3624,6 +3811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Populus alba:
     name: "Populus alba"
@@ -3643,6 +3831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Populus nigra:
     name: "Populus nigra"
@@ -3662,6 +3851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Populus simonii:
     name: "Populus simonii"
@@ -3681,6 +3871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Populus tremula:
     name: "Populus tremula"
@@ -3700,6 +3891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Populus canescens:
     name: "Populus canescens"
@@ -3719,6 +3911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus armeniaca:
     name: "Prunus armeniaca"
@@ -3738,6 +3931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus avium:
     name: "Prunus avium"
@@ -3757,6 +3951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus cerasifera:
     name: "Prunus cerasifera"
@@ -3776,6 +3971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus domestica:
     name: "Prunus domestica"
@@ -3795,6 +3991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus dulcis:
     name: "Prunus dulcis"
@@ -3814,6 +4011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus incisa:
     name: "Prunus incisa"
@@ -3833,6 +4031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus lusitanica:
     name: "Prunus lusitanica"
@@ -3852,6 +4051,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus mahaleb:
     name: "Prunus mahaleb"
@@ -3871,6 +4071,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus padus:
     name: "Prunus padus"
@@ -3890,6 +4091,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus persica:
     name: "Prunus persica"
@@ -3909,6 +4111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus sargentii:
     name: "Prunus sargentii"
@@ -3928,6 +4131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus serrula:
     name: "Prunus serrula"
@@ -3947,6 +4151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus serrulata:
     name: "Prunus serrulata"
@@ -3966,6 +4171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus spinosa:
     name: "Prunus spinosa"
@@ -3985,6 +4191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus ×subhirtella:
     name: "Prunus ×subhirtella"
@@ -4004,6 +4211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus triloba:
     name: "Prunus triloba"
@@ -4023,6 +4231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus ×schmittii:
     name: "Prunus ×schmittii"
@@ -4042,6 +4251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Prunus × yedoensis:
     name: "Prunus × yedoensis"
@@ -4061,6 +4271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pseudotsuga sinensis:
     name: "Pseudotsuga sinensis"
@@ -4080,6 +4291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ptelea trifoliata:
     name: "Ptelea trifoliata"
@@ -4099,6 +4311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pterocarya fraxinifolia:
     name: "Pterocarya fraxinifolia"
@@ -4118,6 +4331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pterocarya stenoptera:
     name: "Pterocarya stenoptera"
@@ -4137,6 +4351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pteroceltis tatarinowii:
     name: "Pteroceltis tatarinowii"
@@ -4156,6 +4371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pterostyrax hispidus:
     name: "Pterostyrax hispidus"
@@ -4175,6 +4391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Punica granatum:
     name: "Punica granatum"
@@ -4194,6 +4411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pyrus calleryana:
     name: "Pyrus calleryana"
@@ -4213,6 +4431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pyrus communis:
     name: "Pyrus communis"
@@ -4232,6 +4451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pyrus pyrifolia:
     name: "Pyrus pyrifolia"
@@ -4251,6 +4471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Pyrus spinosa:
     name: "Pyrus spinosa"
@@ -4270,6 +4491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus acutissima:
     name: "Quercus acutissima"
@@ -4289,6 +4511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus afares:
     name: "Quercus afares"
@@ -4308,6 +4531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus aquifolioides:
     name: "Quercus aquifolioides"
@@ -4327,6 +4551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus bicolor:
     name: "Quercus bicolor"
@@ -4346,6 +4571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus canariensis:
     name: "Quercus canariensis"
@@ -4365,6 +4591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus castaneifolia:
     name: "Quercus castaneifolia"
@@ -4384,6 +4611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus cerris:
     name: "Quercus cerris"
@@ -4403,6 +4631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus coccifera:
     name: "Quercus coccifera"
@@ -4422,6 +4651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus faginea:
     name: "Quercus faginea"
@@ -4441,6 +4671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus falcata:
     name: "Quercus falcata"
@@ -4460,6 +4691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus frainetto:
     name: "Quercus frainetto"
@@ -4479,6 +4711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus glauca:
     name: "Quercus glauca"
@@ -4498,6 +4731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus ilex:
     name: "Quercus ilex"
@@ -4517,6 +4751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus imbricaria:
     name: "Quercus imbricaria"
@@ -4536,6 +4771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus infectoria:
     name: "Quercus infectoria"
@@ -4555,6 +4791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus ithaburensis:
     name: "Quercus ithaburensis"
@@ -4574,6 +4811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus laurifolia:
     name: "Quercus laurifolia"
@@ -4593,6 +4831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus libani:
     name: "Quercus libani"
@@ -4612,6 +4851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus macranthera:
     name: "Quercus macranthera"
@@ -4631,6 +4871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus myrsinifolia:
     name: "Quercus myrsinifolia"
@@ -4650,6 +4891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus petraea:
     name: "Quercus petraea"
@@ -4669,6 +4911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus phellos:
     name: "Quercus phellos"
@@ -4688,6 +4931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus pubescens:
     name: "Quercus pubescens"
@@ -4707,6 +4951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus pyrenaica:
     name: "Quercus pyrenaica"
@@ -4726,6 +4971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus robur:
     name: "Quercus robur"
@@ -4745,6 +4991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus rotundifolia:
     name: "Quercus rotundifolia"
@@ -4764,6 +5011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus rubra:
     name: "Quercus rubra"
@@ -4783,6 +5031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus rysophylla:
     name: "Quercus rysophylla"
@@ -4802,6 +5051,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus shumardii:
     name: "Quercus shumardii"
@@ -4821,6 +5071,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus suber:
     name: "Quercus suber"
@@ -4840,6 +5091,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus texana:
     name: "Quercus texana"
@@ -4859,6 +5111,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus trojana:
     name: "Quercus trojana"
@@ -4878,6 +5131,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus variabilis:
     name: "Quercus variabilis"
@@ -4897,6 +5151,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus velutina:
     name: "Quercus velutina"
@@ -4916,6 +5171,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quercus × hispanica:
     name: "Quercus × hispanica"
@@ -4935,6 +5191,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Quillaja saponaria:
     name: "Quillaja saponaria"
@@ -4954,6 +5211,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Raphiolepsis deflexa:
     name: "Raphiolepsis deflexa"
@@ -4973,6 +5231,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Salix alba:
     name: "Salix alba"
@@ -4992,6 +5251,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Salix viminalis:
     name: "Salix viminalis"
@@ -5011,6 +5271,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sambucus nigra:
     name: "Sambucus nigra"
@@ -5030,6 +5291,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sapindus saponaria:
     name: "Sapindus saponaria"
@@ -5049,6 +5311,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Schinus molle:
     name: "Schinus molle"
@@ -5068,6 +5331,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Senegalia visco:
     name: "Senegalia visco"
@@ -5087,6 +5351,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sequoiadendron giganteum:
     name: "Sequoiadendron giganteum"
@@ -5106,6 +5371,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sequoia sempervirens:
     name: "Sequoia sempervirens"
@@ -5125,6 +5391,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sophora japonica:
     name: "Sophora japonica"
@@ -5144,6 +5411,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus aria:
     name: "Sorbus aria"
@@ -5163,6 +5431,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus aucuparia:
     name: "Sorbus aucuparia"
@@ -5182,6 +5451,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus domestica:
     name: "Sorbus domestica"
@@ -5201,6 +5471,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus intermedia:
     name: "Sorbus intermedia"
@@ -5220,6 +5491,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus torminalis:
     name: "Sorbus torminalis"
@@ -5239,6 +5511,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sorbus × thuringiaca:
     name: "Sorbus × thuringiaca"
@@ -5258,6 +5531,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Styrax japonicus:
     name: "Styrax japonicus"
@@ -5277,6 +5551,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Sycoparrotia semidecidua:
     name: "Sycoparrotia semidecidua"
@@ -5296,6 +5571,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Syringa vulgaris:
     name: "Syringa vulgaris"
@@ -5315,6 +5591,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tamarix africana:
     name: "Tamarix africana"
@@ -5334,6 +5611,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tamarix gallica:
     name: "Tamarix gallica"
@@ -5353,6 +5631,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Taxodium distichum:
     name: "Taxodium distichum"
@@ -5372,6 +5651,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Taxus baccata:
     name: "Taxus baccata"
@@ -5391,6 +5671,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tetradium daniellii:
     name: "Tetradium daniellii"
@@ -5410,6 +5691,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia americana:
     name: "Tilia americana"
@@ -5429,6 +5711,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia cordata:
     name: "Tilia cordata"
@@ -5448,6 +5731,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia dasystyla:
     name: "Tilia dasystyla"
@@ -5467,6 +5751,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia henryana:
     name: "Tilia henryana"
@@ -5486,6 +5771,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia kiusiana:
     name: "Tilia kiusiana"
@@ -5505,6 +5791,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia mongolica:
     name: "Tilia mongolica"
@@ -5524,6 +5811,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia platyphyllos:
     name: "Tilia platyphyllos"
@@ -5543,6 +5831,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia tomentosa:
     name: "Tilia tomentosa"
@@ -5562,6 +5851,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tilia euchlora:
     name: "Tilia euchlora"
@@ -5581,6 +5871,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Tipuana tipu:
     name: "Tipuana tipu"
@@ -5600,6 +5891,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ulmus glabra:
     name: "Ulmus glabra"
@@ -5619,6 +5911,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ulmus laevis:
     name: "Ulmus laevis"
@@ -5638,6 +5931,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ulmus minor:
     name: "Ulmus minor"
@@ -5657,6 +5951,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ulmus parvifolia:
     name: "Ulmus parvifolia"
@@ -5676,6 +5971,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Ulmus pumila:
     name: "Ulmus pumila"
@@ -5695,6 +5991,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Vitex agnus-castus:
     name: "Vitex agnus-castus"
@@ -5714,6 +6011,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Zelkova carpinifolia:
     name: "Zelkova carpinifolia"
@@ -5733,6 +6031,7 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
   Zelkova serrata:
     name: "Zelkova serrata"
@@ -5752,7 +6051,11 @@ presets:
       - leaf_cycle
       - height
       - circumference
+      - health_i
       - "@natural/tree"
+#-----------------------------------------
+# Fin des presets
+#-----------------------------------------
 
 fields:
   access_i:
@@ -5767,18 +6070,18 @@ fields:
       - "Public"
       - "Private"
       - "Permissive"
-  age_i:
+  health_i:
     type: combo
-    key: age
-    label: Age
+    key: health:phyto_status
+    label: Phyto status
     options:
-      - "young"
-      - "semi-mature"
-      - "mature"
+      - "good"
+      - "average"
+      - "bad"
     labels:
-      - "Young"
-      - "Semi-mature"
-      - "Mature"
+      - "Good"
+      - "Average"
+      - "Bad"
   species_i:
     type: combo
     customValues: true
@@ -6418,3 +6721,4 @@ modes:
         - leaf_cycle
         - height
         - circumference
+        - health_i

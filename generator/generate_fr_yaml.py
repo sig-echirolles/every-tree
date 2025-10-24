@@ -9,6 +9,7 @@ yaml_content = {
     "presets": {},
     "fields": {
         "access_i": {"label": "Accès", "labels": ["Public", "Privé", "Permissif"]},
+        "health_i": {"label": "État phyto", "labels": ["Bon", "Moyen", "Mauvais"]},
         "age_i": {"label": "Âge", "labels": ["Jeune", "Semi-mature", "Mature"]},
         "species_i": {"label": "Espèce", "labels": []},
     },
