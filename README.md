@@ -11,13 +11,18 @@ A plugin for `Every Door` to contribute 🌳 **trees** from Échirolles city in 
 - Trees with known species are green
 - Others are in brown
 
-![Main](assets/main.png)
+![Main](assets/echirolles-tree-main.png)
 
-### Tree species presets adapted of the Échirolles' context
+### Tree species presets adapted of the "Échirolles" context
 
 The plugin provides a set of already known identified species and species that are planned to be planted in order to help you tag tree species in Échirolles and nearby.
 
-![Presets](assets/add-tree.png)
+![Presets](assets/echirolles-tree-species.png)
+
+### New `health:phyto_status` tag proposal
+This proposal aims to get information from the field to warn owners of sanitary health of their trees. More informations are available on a the [Wiki page](https://wiki.openstreetmap.org/wiki/Echirolles/Suivi_arbres) (in french) dedicated to our tree referential  
+
+![Form](assets/echirolles-tree-form.png)
 
 ## 🛠️ How to create the plugin file
 
