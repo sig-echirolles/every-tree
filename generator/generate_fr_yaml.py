@@ -1,11 +1,12 @@
 import pandas as pd
+import yaml # pip install PyYAML
 
-# Lire le fichier CSV
+# Lire le fichier CSV principal
 presets_csv = pd.read_csv("presets.csv", sep=";")
 
 # Initialiser la structure YAML
 yaml_content = {
-    "name": "Every Tree Echirolles",
+    "name": "Échirolles Tree",
     "presets": {},
     "fields": {
         "access_i": {"label": "Accès", "labels": ["Public", "Privé", "Permissif"]},
@@ -16,28 +17,17 @@ yaml_content = {
     "modes": {"tree": {"name": "Arbre", "primary": {"tooltip": "Arbre"}}},
 }
 
-# Remplir les noms des presets
+# Utiliser les noms tels qu’ils sont dans presets.csv
 for _, row in presets_csv.iterrows():
-    yaml_content["presets"][f"{row['id']}"] = {"name": row["name"]}
+    yaml_content["presets"][row["id"]] = {"name": row["name"]}
 
-# Remplir les labels des espèces
-species_labels = presets_csv["species"].tolist()
-yaml_content["fields"]["species_i"]["labels"] = species_labels
+# Utiliser les noms d’espèces tels quels
+yaml_content["fields"]["species_i"]["labels"] = presets_csv["species"].tolist()
 
-# Écrire le résultat dans un fichier YAML
-with open("../langs/fr.yaml", "w") as file:
+# Écrire le fichier YAML
+path = "../langs/fr.yaml"
+with open(path, "w", encoding="utf-8") as file:
     file.write("---\n")
-    file.write(f'name: "{yaml_content["name"]}"\n')
-    for preset_id, preset in yaml_content["presets"].items():
-        file.write(f'presets.{preset_id}.name: "{preset["name"]}"\n')
-    for field_id, field in yaml_content["fields"].items():
-        file.write(f'fields.{field_id}.label: "{field["label"]}"\n')
-        file.write(f"fields.{field_id}.labels:\n")
-        for label in field["labels"]:
-            file.write(f'  - "{label}"\n')
-    file.write(f'modes.tree.name: "{yaml_content["modes"]["tree"]["name"]}"\n')
-    file.write(
-        f'modes.tree.primary.tooltip: "{yaml_content["modes"]["tree"]["primary"]["tooltip"]}"\n'
-    )
+    yaml.dump(yaml_content, file, allow_unicode=True, sort_keys=False)
 
-print("Le fichier YAML a été généré avec succès.")
+print(f"✅ [Sans traduction] Le fichier '{path}' a été généré avec succès.")

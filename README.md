@@ -1,6 +1,6 @@
 # 🌳 Échirolles Tree 🌲
 
-A plugin for `Every Door` to contribute 🌳 **trees** from Échirolles city in OpenStreetMap.
+A plugin for [`Every Door`](https://every-door.app/) to contribute 🌳 **trees** from the city of [Échirolles](https://en.wikipedia.org/wiki/%C3%89chirolles) to OpenStreetMap.
 
 ![Échirolles Tree Logo](assets/echirolles-tree-logo.png)
 
@@ -8,19 +8,20 @@ A plugin for `Every Door` to contribute 🌳 **trees** from Échirolles city in 
 
 ### 👀 Quick survey of tree species
 
-- Trees with known species are green
-- Others are in brown
+- Trees with known species are **green 🟩**
+- Others are in **brown 🟫**
 
 ![Main](assets/echirolles-tree-main.png)
 
-### Tree species presets adapted of the "Échirolles" context
+### 🌿 Tree species presets adapted for Échirolles
 
-The plugin provides a set of already known identified species and species that are planned to be planted in order to help you tag tree species in Échirolles and nearby.
+The plugin includes a set of identified species and species that are planned to be planted, making it easier to tag trees species in Échirolles and nearby.
 
 ![Presets](assets/echirolles-tree-species.png)
 
-### New `health:phyto_status` tag proposal
-This proposal aims to get information from the field to warn owners of sanitary health of their trees. More informations are available on a the [Wiki page](https://wiki.openstreetmap.org/wiki/Echirolles/Suivi_arbres) (in french) dedicated to our tree referential  
+### 🩺 New `health:phyto_status` tag proposal
+
+This proposed tag aims to collect field data to alert tree owners about potential health issues of their trees. More details are available on the [dedicated wiki page](https://wiki.openstreetmap.org/wiki/Echirolles/Suivi_arbres) (in French) of our tree referential.
 
 ![Form](assets/echirolles-tree-form.png)
 
@@ -29,11 +30,10 @@ This proposal aims to get information from the field to warn owners of sanitary 
 ### Using bash
 
 ```bash
-# Remove old files
+# Remove old plugin file
 rm -f echirolles-tree.edp
-# Create the classic plugin
+# Create the plugin archive
 zip -r echirolles-tree.edp icons/ langs/ LICENSE plugin.yaml
-rm -rf tmp-edp
 ```
 
 ### Using PowerShell
@@ -43,7 +43,7 @@ Remove-Item .\echirolles-tree.edp
 Compress-Archive -Path icons, langs, LICENSE, plugin.yaml, README.md -DestinationPath echirolles-tree.edp
 ```
 
-## 📥 How to install the plugin
+## 📥 Installation
 
 📲 Scan this QR code with `Every Door` version **6 or later**:
 
@@ -55,4 +55,5 @@ Or [⬇️ download the plugin here](https://raw.githubusercontent.com/sig-echir
 
 ## 🌱 About
 
-`echirolles-tree` is a fork of the [every-tree](https://github.com/Binnette/every-tree) plugin, created by [Binnette](https://github.com/Binnette/). Thanks to him!
+- `echirolles-tree` is a fork of the [every-tree](https://github.com/Binnette/every-tree) plugin, originally created by [Binnette](https://github.com/Binnette/). Huge thanks to him!
+- This plugin was developed to meet the needs of the city of [Échirolles](https://www.echirolles.fr/).
