@@ -1,0 +1,3 @@
+every-tree.code-workspace
+generator/results/*.yaml
+generator/sample/
