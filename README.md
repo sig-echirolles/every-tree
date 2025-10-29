@@ -19,9 +19,9 @@ The plugin includes a set of identified species and species that are planned to 
 
 ![Presets](assets/echirolles-tree-species.png)
 
-### 🩺 New `health:phyto_status` tag proposal
+### 🩺 New `health:phyto_status` `health:physio_status` tags proposal
 
-This proposed tag aims to collect field data to alert tree owners about potential health issues of their trees. More details are available on the [dedicated wiki page](https://wiki.openstreetmap.org/wiki/Echirolles/Suivi_arbres) (in French) of our tree referential.
+These proposed tags aim to collect field data to alert tree owners about potential health issues of their trees. More details are available on the [dedicated wiki page](https://wiki.openstreetmap.org/wiki/Echirolles/Suivi_arbres) (in French) of our tree referential.
 
 ![Form](assets/echirolles-tree-form.png)
 
