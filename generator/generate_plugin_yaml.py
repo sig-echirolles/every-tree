@@ -33,12 +33,19 @@ plugin_yaml = {
             "options": ["yes", "private", "permissive"],
             "labels": ["Public", "Private", "Permissive"]
         },
-        "health_i": {
+        "health_phyto_i": {
             "type": "combo",
             "key": "health:phyto_status",
             "label": "Phyto status",
             "options": ["good", "average", "bad"],
-            "labels": ["Good", "Average", "Bad"]
+            "labels": ["Good", "Average", "Bad"],
+        },
+        "health_physio_i": {
+            "type": "combo",
+            "key": "health:physio_status",
+            "label": "Physio status",
+            "options": ["good", "average", "bad"],
+            "labels": ["Good", "Average", "Bad"],
         },
         "species_i": {
             "type": "combo",
@@ -70,10 +77,8 @@ plugin_yaml = {
                 "adjustZoom": 0.7,
                 "kind": "tree",
                 "fields": [
-                    "species_i", "genus", "leaf_type", "leaf_cycle",
-                    "height", "circumference", "health_i", "description"
-                ]
-            }
+                    "health_phyto_i",
+                    "health_physio_i",
         }
     }
 }
@@ -92,9 +97,8 @@ def transform_row(row):
             "species": row["species"]
         },
         "fields": [
-            "species_i", "genus", "leaf_type", "leaf_cycle",
-            "height", "circumference", "health_i", "description", "@natural/tree"
-        ]
+            "health_phyto_i",
+            "health_physio_i",
     }
 
 # Remplir les presets

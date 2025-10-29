@@ -14,7 +14,14 @@ yaml_content = {
     "presets": {},
     "fields": {
         "access_i": {"label": "Accès", "labels": ["Public", "Privé", "Permissif"]},
-        "health_i": {"label": "État phyto", "labels": ["Bon", "Moyen", "Mauvais"]},
+        "health_phyto_i": {
+            "label": "État phyto",
+            "labels": ["Bon", "Moyen", "Mauvais"],
+        },
+        "health_physio_i": {
+            "label": "État physio",
+            "labels": ["Bon", "Moyen", "Mauvais"],
+        },
         "age_i": {"label": "Âge", "labels": ["Jeune", "Semi-mature", "Mature"]},
         "species_i": {"label": "Espèce", "labels": []},
     },
