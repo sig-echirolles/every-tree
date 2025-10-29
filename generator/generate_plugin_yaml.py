@@ -1,5 +1,5 @@
 import pandas as pd
-import yaml # pip install PyYAML
+import yaml  # pip install PyYAML
 
 # Lire le fichier CSV
 presets_csv = pd.read_csv("presets.csv", sep=";")
@@ -16,22 +16,14 @@ plugin_yaml = {
     "source": "https://raw.githubusercontent.com/sig-echirolles/every-tree/refs/heads/main/echirolles-tree.edp",
     "experimental": True,
     "presets": {},
-    "kinds": {
-        "tree": {
-            "matcher": {
-                "natural": {
-                    "only": ["tree"]
-                }
-            }
-        }
-    },
+    "kinds": {"tree": {"matcher": {"natural": {"only": ["tree"]}}}},
     "fields": {
         "access_i": {
             "type": "combo",
             "key": "access",
             "label": "Access",
             "options": ["yes", "private", "permissive"],
-            "labels": ["Public", "Private", "Permissive"]
+            "labels": ["Public", "Private", "Permissive"],
         },
         "health_phyto_i": {
             "type": "combo",
@@ -53,8 +45,8 @@ plugin_yaml = {
             "key": "species",
             "label": "Species",
             "options": presets_csv["species"].dropna().tolist(),
-            "labels": presets_csv["name"].dropna().tolist()
-        }
+            "labels": presets_csv["name"].dropna().tolist(),
+        },
     },
     "modes": {
         "tree": {
@@ -66,7 +58,7 @@ plugin_yaml = {
                 "tree": {
                     "requiredKeys": ["species"],
                     "icon": "tree-ok.svg",
-                    "iconPartial": "tree-ko.svg"
+                    "iconPartial": "tree-ko.svg",
                 }
             },
             "primary": {
@@ -77,11 +69,21 @@ plugin_yaml = {
                 "adjustZoom": 0.7,
                 "kind": "tree",
                 "fields": [
+                    "species_i",
+                    "genus",
+                    "leaf_type",
+                    "leaf_cycle",
+                    "height",
+                    "circumference",
                     "health_phyto_i",
                     "health_physio_i",
+                    "description",
+                ],
+            },
         }
-    }
+    },
 }
+
 
 # Fonction pour transformer une ligne CSV en entrée YAML
 def transform_row(row):
@@ -94,12 +96,22 @@ def transform_row(row):
         "addTags": {
             "natural": "tree",
             "genus": row["genus"],
-            "species": row["species"]
+            "species": row["species"],
         },
         "fields": [
+            "species_i",
+            "genus",
+            "leaf_type",
+            "leaf_cycle",
+            "height",
+            "circumference",
             "health_phyto_i",
             "health_physio_i",
+            "description",
+            "@natural/tree",
+        ],
     }
+
 
 # Remplir les presets
 for _, row in presets_csv.iterrows():

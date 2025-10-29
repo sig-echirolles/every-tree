@@ -1,5 +1,5 @@
 import pandas as pd
-import yaml # pip install PyYAML
+import yaml  # pip install PyYAML
 
 # Lire les fichiers CSV
 presets_csv = pd.read_csv("presets.csv", sep=";")
@@ -33,7 +33,9 @@ for _, row in presets_csv.iterrows():
     preset_id = row["id"]
     nom_fr = trad_dict.get(preset_id)
     if not nom_fr:
-        print(f"⚠️ Aucun nom français trouvé pour '{preset_id}' → utilisation de row['name']")
+        print(
+            f"⚠️ Aucun nom français trouvé pour '{preset_id}' → utilisation de row['name']"
+        )
         nom_fr = row["name"]
     yaml_content["presets"][preset_id] = {"name": nom_fr}
 
@@ -42,7 +44,9 @@ translated_species_labels = []
 for species_id in presets_csv["species"]:
     label_fr = trad_dict.get(species_id)
     if not label_fr:
-        print(f"⚠️ Aucun nom français trouvé pour l'espèce '{species_id}' → label conservé tel quel")
+        print(
+            f"⚠️ Aucun nom français trouvé pour l'espèce '{species_id}' → label conservé tel quel"
+        )
         label_fr = species_id
     translated_species_labels.append(label_fr)
 
